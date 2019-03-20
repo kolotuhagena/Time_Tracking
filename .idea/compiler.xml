@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FP_time_tracking" />
+        <module name="TimeTracker" />
       </profile>
     </annotationProcessing>
   </component>
