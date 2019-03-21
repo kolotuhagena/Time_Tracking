@@ -3,7 +3,7 @@ package edu.TimeTracker.Java_external.entity.DAO;
 import java.sql.SQLException;
 import java.util.List;
 
-public class TrackDao implements GenericDao {
+public class RequestDao implements GenericDao {
 
     @Override
     public void create(Object object) throws SQLException {

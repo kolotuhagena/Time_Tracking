@@ -6,12 +6,12 @@ public class Request {
     private Activity activity;
     private User user;
 
-    public Request(int requestId, Type type, Activity activity, User user) {
+/*    public Request(int requestId, Type type, Activity activity, User user) {
         this.requestId = requestId;
         this.type = type;
         this.activity = activity;
         this.user = user;
-    }
+    }*/
 
     public int getRequestId() {
         return requestId;

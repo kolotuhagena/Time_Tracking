@@ -1,19 +1,21 @@
 package edu.TimeTracker.Java_external.entity;
 
+import java.util.Objects;
+
 public class User {
     private int userId;
     private String login;
     private int password;
     private String email;
-    private Role role;
+    private Role role = Role.USER;
 
-    public User(int userId, String login, int password, String email, Role role) {
+    /*public User(int userId, String login, int password, String email, Role role) {
         this.userId = userId;
         this.login = login;
         this.password = password;
         this.email = email;
         this.role = role;
-    }
+    }*/
 
     public int getUserId() {
         return userId;
@@ -53,6 +55,27 @@ public class User {
 
     public void setRole(Role role) {
         this.role = role;
+    }
+    public void setRole(String role){
+        if(role.toUpperCase().equals("ADMIN")) this.role=Role.ADMIN;
+        else this.role=Role.USER;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return userId == user.userId &&
+                password == user.password &&
+                Objects.equals(login, user.login) &&
+                Objects.equals(email, user.email) &&
+                role == user.role;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(userId, login, password, email, role);
     }
 
     public enum Role {

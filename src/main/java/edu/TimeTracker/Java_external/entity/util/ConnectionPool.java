@@ -30,12 +30,12 @@ public class ConnectionPool {
             Connection connection = null;
             try {
                 context = new InitialContext();
-                DataSource dataSource = (DataSource) context.lookup("///");
+                DataSource dataSource = (DataSource) context.lookup("java:comp/env/jdbc/time_tracking");
                 connection = dataSource.getConnection();
                 //для транзакцій,щоб після запитів робити коміти
                 connection.setAutoCommit(false);
             } catch (NamingException | SQLException e) {
-                LOGGER.log(Level.ERROR,e.getCause());
+                LOGGER.error(e.getStackTrace());
             }
             return connection;
         }
