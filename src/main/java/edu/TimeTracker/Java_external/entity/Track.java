@@ -1,6 +1,7 @@
 package edu.TimeTracker.Java_external.entity;
 
 import java.sql.Time;
+import java.util.Objects;
 
 public class Track {
     private int trackID;
@@ -9,13 +10,13 @@ public class Track {
     private boolean completed;
     private Time elapsedTime;
 
-    public Track(int trackID, Activity activity, boolean active, boolean completed, Time elapsedTime) {
+    /*public Track(int trackID, Activity activity, boolean active, boolean completed, Time elapsedTime) {
         this.trackID = trackID;
         this.activity = activity;
         this.active = active;
         this.completed = completed;
         this.elapsedTime = elapsedTime;
-    }
+    }*/
 
     public int getTrackID() {
         return trackID;
@@ -55,5 +56,22 @@ public class Track {
 
     public void setElapsedTime(Time elapsedTime) {
         this.elapsedTime = elapsedTime;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Track track = (Track) o;
+        return trackID == track.trackID &&
+                active == track.active &&
+                completed == track.completed &&
+                activity.equals(track.activity) &&
+                elapsedTime.equals(track.elapsedTime);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(trackID, activity, active, completed, elapsedTime);
     }
 }

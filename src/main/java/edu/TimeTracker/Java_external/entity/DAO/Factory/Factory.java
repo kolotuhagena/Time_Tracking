@@ -1,6 +1,7 @@
 package edu.TimeTracker.Java_external.entity.DAO.Factory;
 
 import edu.TimeTracker.Java_external.entity.DAO.ActivityDao;
+import edu.TimeTracker.Java_external.entity.DAO.RequestDao;
 import edu.TimeTracker.Java_external.entity.DAO.TrackDao;
 import edu.TimeTracker.Java_external.entity.DAO.UserDao;
 import edu.TimeTracker.Java_external.entity.Request;
@@ -23,7 +24,7 @@ public class Factory implements DAOFactory {
     }
 
     @Override
-    public Request getRequestDao() {
-        return new Request();
+    public RequestDao getRequestDao() {
+        return new RequestDao();
     }
 }

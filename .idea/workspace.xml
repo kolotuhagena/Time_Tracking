@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f316f0-42cb-4743-822d-c03dc8f0468c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/util/SimpleConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/ActivityDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/RequestDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/TrackDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/ActivityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/ActivityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/ActivityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/DAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/DAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/GenericDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/RequestDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/RequestDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/RequestDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/TrackDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/TrackDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/util/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/util/ConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Track.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,6 +24,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TimeTracker$edu_TimeTracker_Java_external_entity_DAO_in_TimeTracker.ic" NAME="edu.TimeTracker.Java_external.entity.DAO in TimeTracker Coverage Results" MODIFIED="1553212308788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.TimeTracker.Java_external.entity.DAO.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="185" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -45,28 +50,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Track.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="195">
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/DAOFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1157#1158#0" expanded="true" />
+                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1289#1290#0" expanded="true" />
+                <element signature="e#1797#1798#0" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="374">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
@@ -87,10 +98,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/TrackDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/DAOFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="443">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +110,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/RequestDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="142">
+              <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+              <folding>
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/TrackDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="108" column="30" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/TrackDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-77">
+              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,53 +157,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/ActivityDao.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1128#1129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/RequestDao.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1323#1324#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/UserDaoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/RequestDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/util/ConnectionPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="71" column="70" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="71" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/util/SimpleConnection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/ActivityDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="249">
+              <caret line="68" column="73" selection-start-line="68" selection-start-column="73" selection-end-line="68" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -171,8 +211,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -182,6 +222,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="kolotuhagena &lt;kolotuhagena@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -190,14 +235,9 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/util/Connetion.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/util/ConnetionPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Track.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Activity.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Type.java" />
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/DAOFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/DAOFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/Factory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Request.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/bd.properties" />
@@ -206,13 +246,22 @@
         <option value="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/RequestTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/util/ConnectionPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/GenericDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/RequestDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/ActivityDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/TrackDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/util/SimpleConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Activity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/ActivityDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Track.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/TrackDao.java" />
+        <option value="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/TrackDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/DAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/RequestDao.java" />
+        <option value="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/RequestDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/ActivityDaoTest.java" />
       </list>
     </option>
   </component>
@@ -363,8 +412,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="edu.TimeTracker.Java_external.entity" />
       <recent name="edu.TimeTracker.Java_external.entity.DAO" />
+      <recent name="edu.TimeTracker.Java_external.entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Time_Tracking\src\main\resources" />
@@ -377,6 +426,7 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.TimeTracker.Java_external.entity.DAO" />
       <recent name="edu.TimeTracker.Java_external.entity" />
     </key>
   </component>
@@ -392,8 +442,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest">
-    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.edu.TimeTracker.Java_external.entity.DAO in TimeTracker">
+    <configuration name="ActivityDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TimeTracker" />
       <extension name="coverage">
         <pattern>
@@ -402,13 +452,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.TimeTracker.Java_external.entity.DAO" />
-      <option name="MAIN_CLASS_NAME" value="edu.TimeTracker.Java_external.entity.DAO.UserDaoTest" />
+      <option name="MAIN_CLASS_NAME" value="edu.TimeTracker.Java_external.entity.DAO.ActivityDaoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActivityDaoTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TimeTracker" />
       <extension name="coverage">
         <pattern>
@@ -417,14 +467,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.TimeTracker.Java_external.entity.DAO" />
-      <option name="MAIN_CLASS_NAME" value="edu.TimeTracker.Java_external.entity.DAO.UserDaoTest" />
+      <option name="MAIN_CLASS_NAME" value="edu.TimeTracker.Java_external.entity.DAO.ActivityDaoTest" />
       <option name="METHOD_NAME" value="create" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActivityDaoTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TimeTracker" />
       <extension name="coverage">
         <pattern>
@@ -433,14 +483,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.TimeTracker.Java_external.entity.DAO" />
-      <option name="MAIN_CLASS_NAME" value="edu.TimeTracker.Java_external.entity.DAO.UserDaoTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="MAIN_CLASS_NAME" value="edu.TimeTracker.Java_external.entity.DAO.ActivityDaoTest" />
+      <option name="METHOD_NAME" value="getById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.getByIncorrectIdReturnNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TimeTracker" />
       <extension name="coverage">
         <pattern>
@@ -449,14 +499,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.TimeTracker.Java_external.entity.DAO" />
-      <option name="MAIN_CLASS_NAME" value="edu.TimeTracker.Java_external.entity.DAO.UserDaoTest" />
-      <option name="METHOD_NAME" value="getByIncorrectIdReturnNull" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="edu.TimeTracker.Java_external.entity.DAO.RequestDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="edu.TimeTracker.Java_external.entity.DAO in TimeTracker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TimeTracker" />
       <extension name="coverage">
         <pattern>
@@ -465,20 +514,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.TimeTracker.Java_external.entity.DAO" />
-      <option name="MAIN_CLASS_NAME" value="edu.TimeTracker.Java_external.entity.DAO.UserDaoTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDaoTest" />
-        <item itemvalue="JUnit.UserDaoTest.delete" />
-        <item itemvalue="JUnit.UserDaoTest.update" />
-        <item itemvalue="JUnit.UserDaoTest.create" />
-        <item itemvalue="JUnit.UserDaoTest.getByIncorrectIdReturnNull" />
+        <item itemvalue="JUnit.edu.TimeTracker.Java_external.entity.DAO in TimeTracker" />
+        <item itemvalue="JUnit.ActivityDaoTest" />
+        <item itemvalue="JUnit.ActivityDaoTest.getById" />
+        <item itemvalue="JUnit.ActivityDaoTest.create" />
+        <item itemvalue="JUnit.RequestDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -494,54 +541,63 @@
       <workItem from="1552899631560" duration="245000" />
       <workItem from="1552904662613" duration="4726000" />
       <workItem from="1553019493829" duration="1277000" />
-      <workItem from="1553085377311" duration="26578000" />
+      <workItem from="1553085377311" duration="46543000" />
     </task>
+    <task id="LOCAL-00001" summary="Was add user DAO functions and test for it">
+      <created>1553186236196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553186236196</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTest_create - 2019.03.21 at 18h 15m 20s.xml">
-      <configuration name="UserDaoTest.create" configurationId="JUnit" />
+    <history-entry file="ActivityDaoTest - 2019.03.22 at 01h 43m 00s.xml">
+      <configuration name="ActivityDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_create - 2019.03.21 at 18h 15m 55s.xml">
-      <configuration name="UserDaoTest.create" configurationId="JUnit" />
+    <history-entry file="RequestDaoTest - 2019.03.22 at 01h 43m 09s.xml">
+      <configuration name="RequestDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_create - 2019.03.21 at 18h 20m 58s.xml">
-      <configuration name="UserDaoTest.create" configurationId="JUnit" />
+    <history-entry file="TrackDaoTest - 2019.03.22 at 01h 43m 18s.xml">
+      <configuration name="TrackDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_create - 2019.03.21 at 18h 21m 06s.xml">
-      <configuration name="UserDaoTest.create" configurationId="JUnit" />
+    <history-entry file="RequestDaoTest - 2019.03.22 at 01h 44m 00s.xml">
+      <configuration name="RequestDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_create - 2019.03.21 at 18h 21m 48s.xml">
-      <configuration name="UserDaoTest.create" configurationId="JUnit" />
+    <history-entry file="RequestDaoTest - 2019.03.22 at 01h 44m 52s.xml">
+      <configuration name="RequestDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_create - 2019.03.21 at 18h 22m 12s.xml">
-      <configuration name="UserDaoTest.create" configurationId="JUnit" />
+    <history-entry file="ActivityDaoTest_create - 2019.03.22 at 01h 48m 17s.xml">
+      <configuration name="ActivityDaoTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_create - 2019.03.21 at 18h 22m 17s.xml">
-      <configuration name="UserDaoTest.create" configurationId="JUnit" />
+    <history-entry file="ActivityDaoTest_create - 2019.03.22 at 01h 48m 46s.xml">
+      <configuration name="ActivityDaoTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_update - 2019.03.21 at 18h 27m 45s.xml">
-      <configuration name="UserDaoTest.update" configurationId="JUnit" />
+    <history-entry file="ActivityDaoTest_getById - 2019.03.22 at 01h 49m 21s.xml">
+      <configuration name="ActivityDaoTest.getById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_delete - 2019.03.21 at 18h 33m 15s.xml">
-      <configuration name="UserDaoTest.delete" configurationId="JUnit" />
+    <history-entry file="ActivityDaoTest - 2019.03.22 at 01h 51m 30s.xml">
+      <configuration name="ActivityDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest - 2019.03.21 at 18h 34m 08s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
+    <history-entry file="edu_TimeTracker_Java_external_entity_DAO_in_TimeTracker - 2019.03.22 at 01h 52m 24s.xml">
+      <configuration name="edu.TimeTracker.Java_external.entity.DAO in TimeTracker" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35670000" />
+    <option name="totallyTimeSpent" value="55635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Duplicate detector" weight="0.32850242" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36231884" />
@@ -551,14 +607,15 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32850242" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="JSF" />
-      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="CDI" />
+      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -570,74 +627,37 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Was add user DAO functions and test for it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Was add user DAO functions and test for it" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/UserDao.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/ActivityDao.java</url>
+          <line>65</line>
           <properties />
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/TrackDao.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/TrackDao.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Role.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Type.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Track.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -711,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -755,92 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/GenericDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/DAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/RequestDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/ActivityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/TrackDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -860,8 +787,227 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/util/SimpleConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+          <folding>
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="167" column="9" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1507">
+          <caret line="100" column="28" lean-forward="true" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4421#4422#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/ActivityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/TrackDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="108" column="30" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/Factory/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <folding>
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/entity/DAO/RequestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/TrackDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/RequestDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="71" column="70" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="71" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/entity/DAO/ActivityDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="68" column="73" selection-start-line="68" selection-start-column="73" selection-end-line="68" selection-end-column="73" />
         </state>
       </provider>
     </entry>

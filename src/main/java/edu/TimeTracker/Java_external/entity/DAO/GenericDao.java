@@ -8,26 +8,26 @@ public interface GenericDao<T> {
     /**
      * Создает новую запись и соответствующий ей объект
      */
-    public void create(T object) throws SQLException;
+     void create(T object);
 
     /**
      * Возвращает объект соответствующий записи с первичным ключом key или null
      */
-    public T getById(int key) throws SQLException;
+     T getById(int key) ;
 
     /**
      * Сохраняет состояние объекта group в базе данных
      */
-    public void update(T object, int id) throws SQLException;
+     void update(T object, int id) ;
 
     /**
      * Удаляет запись об объекте из базы данных
      */
-    public void delete(int id) throws SQLException;
+     void delete(int id) ;
 
     /**
      * Возвращает список объектов соответствующих всем записям в базе данных
      */
-    public List<T> getAll() throws SQLException;
+     List<T> getAll() ;
 
 }

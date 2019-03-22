@@ -1,7 +1,6 @@
 package edu.TimeTracker.Java_external.entity.DAO;
 
 import edu.TimeTracker.Java_external.entity.User;
-import edu.TimeTracker.Java_external.entity.util.ConnectionPool;
 import edu.TimeTracker.Java_external.entity.util.SimpleConnection;
 import org.apache.log4j.Logger;
 
@@ -11,10 +10,11 @@ import java.util.List;
 
 public class UserDao implements GenericDao<User> {
     private final Logger LOGGER = Logger.getLogger(this.getClass());
+
     @Override
-    public void create(User user){
-        try(Connection connection = SimpleConnection.getInstance().getConnection();
-            PreparedStatement statement = connection.prepareStatement(SQLUser.CREATE.getQUERY())){
+    public void create(User user) {
+        try (Connection connection = SimpleConnection.getInstance().getConnection();
+             PreparedStatement statement = connection.prepareStatement(SQLUser.CREATE.getQUERY())) {
             statementFiller(user, connection, statement);
             LOGGER.info("User " + user.getLogin() + " was created");
         } catch (SQLException e) {
@@ -24,10 +24,10 @@ public class UserDao implements GenericDao<User> {
 
 
     @Override
-    public void update(User user, int id){
-        try(Connection connection = SimpleConnection.getInstance().getConnection();
-        PreparedStatement statement = connection.prepareStatement(SQLUser.UPDATE.getQUERY())){
-            statement.setInt(6,id);
+    public void update(User user, int id) {
+        try (Connection connection = SimpleConnection.getInstance().getConnection();
+             PreparedStatement statement = connection.prepareStatement(SQLUser.UPDATE.getQUERY())) {
+            statement.setInt(6, id);
             statementFiller(user, connection, statement);
             LOGGER.info("User " + user.getLogin() + " was updated");
         } catch (SQLException e) {
@@ -36,29 +36,30 @@ public class UserDao implements GenericDao<User> {
     }
 
     @Override
-    public void delete(int id){
-        try(Connection connection = SimpleConnection.getInstance().getConnection();
-        PreparedStatement statement = connection.prepareStatement(SQLUser.DELETE.getQUERY())){
+    public void delete(int id) {
+        try (Connection connection = SimpleConnection.getInstance().getConnection();
+             PreparedStatement statement = connection.prepareStatement(SQLUser.DELETE.getQUERY())) {
             statement.setInt(1, id);
             statement.executeUpdate();
             connection.commit();
-            LOGGER.info("User with id " +id+ " was successful deleted.");
+            LOGGER.info("User with id " + id + " was successful deleted.");
         } catch (SQLException e) {
             LOGGER.error(e.getStackTrace());
         }
     }
+
     @Override
     public User getById(int key) {
         User user = new User();
-        try(Connection connection = SimpleConnection.getInstance().getConnection();
-            PreparedStatement statement = connection.prepareStatement(SQLUser.SELECT_BY_ID.getQUERY())){
-            statement.setInt(1,key);
+        try (Connection connection = SimpleConnection.getInstance().getConnection();
+             PreparedStatement statement = connection.prepareStatement(SQLUser.SELECT_BY_ID.getQUERY())) {
+            statement.setInt(1, key);
             ResultSet resultSet = statement.executeQuery();
             if (!resultSet.next()) return null;
             getUserFromDB(user, resultSet);
-        }catch (SQLException e){
+        } catch (SQLException e) {
             LOGGER.error(e.getMessage());
-            user=null;
+            user = null;
         }
         return user;
     }
@@ -67,15 +68,15 @@ public class UserDao implements GenericDao<User> {
     public List getAll() {
         List<User> list = new ArrayList<>();
         User user;
-        try(Connection connection = SimpleConnection.getInstance().getConnection();
-        Statement statement = connection.createStatement()){
+        try (Connection connection = SimpleConnection.getInstance().getConnection();
+             Statement statement = connection.createStatement()) {
             ResultSet resultSet = statement.executeQuery(SQLUser.SELECT_ALL.getQUERY());
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 user = new User();
                 getUserFromDB(user, resultSet);
                 list.add(user);
             }
-        }catch (SQLException e){
+        } catch (SQLException e) {
             LOGGER.error(e.getStackTrace());
         }
 
@@ -100,7 +101,7 @@ public class UserDao implements GenericDao<User> {
         connection.commit();
     }
 
-    enum SQLUser{
+    enum SQLUser {
         SELECT_BY_ID("SELECT * FROM user WHERE user_id=?"),
         SELECT_ALL("SELECT * FROM user"),
         CREATE("INSERT INTO user (user_id, login, password, email, role) VALUES(?,?,?,?,?)"),
@@ -110,8 +111,8 @@ public class UserDao implements GenericDao<User> {
 
         private String QUERY;
 
-        SQLUser(String query){
-            this.QUERY=query;
+        SQLUser(String query) {
+            this.QUERY = query;
         }
 
         public String getQUERY() {
