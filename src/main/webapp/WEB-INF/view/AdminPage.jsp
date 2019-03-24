@@ -1,13 +1,17 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: WK
+  Date: 3/22/2019
+  Time: 5:01 PM
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 
 <fmt:setBundle basename="language"/>
 <fmt:message key="title" var="title"/>
-<fmt:message key="header.logo" var="logo"/>
-<fmt:message key="index.welcome" var="welcome"/>
-<fmt:message key="index.description" var="description"/>
-<fmt:message key="index.join" var="join"/>
+
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -16,13 +20,9 @@
     <title>${title}</title>
 </head>
 <body>
-<jsp:include page="WEB-INF/view/Components/header.jsp"/>
-<section id="content">
-    <div class="wrapper">
-        <h1 class="content__title">${welcome}</h1>
-        <p class="content__text">${description}</p>
-        <a href="${pageContext.request.contextPath}/home"><input type="button" value="${join}" class="main__btn"></a>
-    </div>
-</section>
+<!-- HEADER -->
+<jsp:include page="/WEB-INF/view/Components/header.jsp"/>
+<!-- /HEADER -->
+<h1>Admin page</h1>
 </body>
 </html>

@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 81vw;
+}
+
+.main__btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5vh;
+    cursor: pointer;
+    text-transform: uppercase;
+/*    padding: 25px 55px;*/
+    width: 160px;
+    height: 60px;
+    border: 0px;
+    background-color: #00c8c8;
+    color: #fff;
+    font-weight: 700;
+}
+.main__btn--left{
+    float: left;
+}
+.main__btn:hover {
+    background-color: #006a6a;
+    transition: 0.5s;
+}
+
+.main-header {
+    position: relative;
+    height: 10vh;
+    background-color: #333;
+    padding-top: 4vh;
+}
+
+.main-header__logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 3vh;
+}
+
+.main-header__logo:hover {
+    color: #00c8c8;
+    transition: 0.5s;
+}
+
+section#content {
+    margin-top: 5vh;
+}
+
+.content__title {
+    text-align: center;
+    font-size: 5vh;
+}
+
+.content__text {
+    text-align: center;
+    font-size: 2.5vh;
+    line-height: 3vh;
+}
+
+/********************main page*****************************/
+.main-header__wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header__menu {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    list-style-type: none;
+}
+
+.main-header__list {
+    padding-left: 2vw;
+}
+
+.main-header__link {
+    text-decoration: none;
+    font-size: 2vh;
+    color: #fff;
+}
+
+.main-header__link:hover {
+    color: #00c8c8;
+    transition: 0.5s;
+}
+
+.lang {
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+}
+
+.lang__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7vh;
+    line-height: 2vh;
+}
+
+.lang__link:hover {
+    color: #00c8c8;
+    transition: 0.5s;
+}
+/*********************sign in**************************/
+.signin__wrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 40vw;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+.signin{
+    width: 30vw;
+}
+
+.registr{
+    width: 30vw;
+}
+.signin__title{
+    color: #333;
+    line-height: 5vh;
+}
+.input-field{
+    position: relative;
+    width: 20vw;
+}
+.signin__input{
+    margin: 2vh 0;
+    padding: 0.5vh 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #333;
+    font-size: 16px;
+    width: 15vw;
+}
+.signin__label{
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.signin__input:focus+.signin__label
+{
+    margin-top: -2vh;
+}
