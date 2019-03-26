@@ -11,6 +11,7 @@ public class Track {
     private boolean active;
     private boolean completed;
     private Time elapsedTime;
+    private User user;
 
     public int getTrackID() {
         return trackID;
@@ -52,6 +53,14 @@ public class Track {
         this.elapsedTime = elapsedTime;
     }
 
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -61,11 +70,12 @@ public class Track {
                 active == track.active &&
                 completed == track.completed &&
                 activity.equals(track.activity) &&
-                elapsedTime.equals(track.elapsedTime);
+                elapsedTime.equals(track.elapsedTime) &&
+                user.equals(track.user);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(trackID, activity, active, completed, elapsedTime);
+        return Objects.hash(trackID, activity, active, completed, elapsedTime, user);
     }
 }

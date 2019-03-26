@@ -16,8 +16,8 @@
 <fmt:message key="input.password" var="password"/>
 <fmt:message key="input.email" var="email"/>
 <fmt:message key="input.registration" var="registration"/>
-<fmt:message key="input.registr" var="registr"/>
-<fmt:message key="input.submit" var="submit"/>
+<fmt:message key="input.registrForm" var="registrForm"/>
+<fmt:message key="input.login" var="login"/>
 <html>
 
 <head>
@@ -40,12 +40,15 @@
                 <div class="input-field">
                     <input type="password" id="inputPassword" required name="password" class="signin__input" placeholder="${password}">
                 </div>
-                <button type="submit" class="main__btn main__btn--left" value="${submit}"></button>
+                <c:if test="${ExceptionSignIn!=null}">
+                    <c:out value="${ExceptionSignIn}"/>
+                </c:if>
+                <input type="submit" class="main__btn main__btn--left" value="${login}"/>
             </form>
         </div>
         <div class="registr">
             <form method="post" action="registration">
-                <h2 class="signin__title">${registr}</h2>
+                <h2 class="signin__title">${registrForm}</h2>
                 <div class="input-field">
                     <input type="text" name="regUsername" required="" class="signin__input" placeholder="${username}">
                 </div>
@@ -55,6 +58,9 @@
                 <div class="input-field">
                     <input type="text" name="regEmail" required="" class="signin__input" placeholder="${email}">
                 </div>
+                <c:if test="${Exception!=null}">
+                    <c:out value="${Exception}"/>
+                </c:if>
                 <input type="submit" value="${registration}" class="main__btn main__btn--left">
             </form>
         </div>

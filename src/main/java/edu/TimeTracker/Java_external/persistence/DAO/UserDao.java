@@ -2,7 +2,6 @@ package edu.TimeTracker.Java_external.persistence.DAO;
 
 import edu.TimeTracker.Java_external.persistence.entity.User;
 import edu.TimeTracker.Java_external.persistence.util.ConnectionPool;
-import edu.TimeTracker.Java_external.persistence.util.SimpleConnection;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
@@ -81,12 +80,14 @@ public class UserDao implements GenericDao<User> {
     }
 
     @Override
-    public List getAll() {
+    public List<User> getAllWithPagination(int offset, int recordPerPage) {
         List<User> list = new ArrayList<>();
         User user;
         try (Connection connection = ConnectionPool.getInstance().getConnection();
-             Statement statement = connection.createStatement()) {
-            ResultSet resultSet = statement.executeQuery(SQLUser.SELECT_ALL.getQUERY());
+             PreparedStatement statement = connection.prepareStatement(SQLUser.SELECT_ALL.getQUERY())) {
+            statement.setInt(1,offset);
+            statement.setInt(2,recordPerPage);
+            ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
                 user = new User();
                 getUserFromDB(user, resultSet);
@@ -98,6 +99,12 @@ public class UserDao implements GenericDao<User> {
 
         return list;
     }
+
+    @Override
+    public int getCountObjects() {
+        return 0;
+    }
+
 
     private void getUserFromDB(User user, ResultSet resultSet) throws SQLException {
         user.setUserId(resultSet.getInt("user_id"));
@@ -119,7 +126,8 @@ public class UserDao implements GenericDao<User> {
 
     enum SQLUser {
         SELECT_BY_ID("SELECT * FROM user WHERE user_id=?"),
-        SELECT_ALL("SELECT * FROM user"),
+        SELECT_ALL("SELECT * FROM user LIMIT ?,?"),
+        GET_RECORDS("SELECT COUNT(*) FROM user"),
         SELECT_BY_NAME("SELECT * FROM user where login=?"),
         CREATE("INSERT INTO user (user_id, login, password, email, role) VALUES(?,?,?,?,?)"),
         UPDATE("UPDATE user SET user_id=?, login=?, password=?, email=?, role=? WHERE user_id=?"),

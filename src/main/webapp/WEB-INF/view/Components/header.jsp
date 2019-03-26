@@ -15,6 +15,7 @@
 <fmt:message key="header.main" var="main"/>
 <fmt:message key="header.account" var="account"/>
 <fmt:message key="header.admin" var="admin"/>
+<fmt:message key="header.logout" var="logout"/>
 
 
 <header class="main-header">
@@ -31,14 +32,14 @@
         </ul>
     </div>
     <div class="lang">
-            <span class="lang__item"><a href="${pageContext.request.contextPath}/localeUa" class="lang__link">
+            <span class="lang__item"><a href="?lang=UA" class="lang__link">
                     <p>UA</p>
                 </a></span>
-        <span class="lang__item"><a href="${pageContext.request.contextPath}/localeEn" class="lang__link">
+        <span class="lang__item"><a href="?lang=EN" class="lang__link">
                     <p>ENG</p>
                 </a></span>
         <c:if test="${login != null}">
-            <a href="${pageContext.request.contextPath}/logout" class="lang__link">Logout<i class=""></i> </a>
+            <a href="${pageContext.request.contextPath}/logout" class="lang__link">${logout}<i class=""></i> </a>
         </c:if>
 
 

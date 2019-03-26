@@ -24,8 +24,9 @@ public class LogoutCommand implements Command {
   @Override
   public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     HttpSession session = request.getSession();
+    int id =(int) session.getAttribute("id");
     session.invalidate();
-    LOGGER.info("Was destroyed session: " + session.getId());
+    LOGGER.info("Was destroyed session with user id: " + id);
     return PageConfiguration.getInstance().getPageConfiguration(PageConfiguration.HOME_PAGE);
   }
 }

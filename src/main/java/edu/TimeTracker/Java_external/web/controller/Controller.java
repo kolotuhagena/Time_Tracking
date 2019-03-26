@@ -17,7 +17,8 @@ import java.io.IOException;
         "/sign_in",
         "/home",
         "/logout",
-        "/registration"})
+        "/registration",
+        "/account"})
 public class Controller extends HttpServlet {
     private static final Logger LOGGER = Logger.getLogger(Controller.class.getName());
     private static final String ENCODING = "UTF-8";
@@ -52,7 +53,6 @@ public class Controller extends HttpServlet {
         } catch (Exception e) {
             request.setAttribute("Exception",
                     MessageUtil.getInstance().getMessageException(MessageUtil.SERVLET_EXCEPTION));
-            //call jsp-page with error message
             LOGGER.error(e);
             page = PageConfiguration.getInstance().getPageConfiguration(PageConfiguration.ERROR_PAGE);
         }

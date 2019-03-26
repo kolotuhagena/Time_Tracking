@@ -53,6 +53,7 @@ public class AuthentFilter implements Filter {
             //Тут происходит проверка пользователя на подлинность
             if (user.getLogin().equals(login) && user.getPassword() == password.hashCode()) {
                 session.setAttribute("login", user.getLogin());
+                session.setAttribute("id", user.getUserId());
                 session.setAttribute("password", user.getPassword());
                 if(user.getRole().equals(User.Role.ADMIN)){
                     session.setAttribute("IsAdministrator",true);

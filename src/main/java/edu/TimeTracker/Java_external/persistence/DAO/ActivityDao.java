@@ -1,7 +1,7 @@
 package edu.TimeTracker.Java_external.persistence.DAO;
 
 import edu.TimeTracker.Java_external.persistence.entity.Activity;
-import edu.TimeTracker.Java_external.persistence.util.SimpleConnection;
+import edu.TimeTracker.Java_external.persistence.util.ConnectionPool;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
@@ -13,7 +13,7 @@ public class ActivityDao implements GenericDao<Activity> {
 
     @Override
     public void create(Activity activity) {
-        try(Connection connection = SimpleConnection.getInstance().getConnection();
+        try(Connection connection = ConnectionPool.getInstance().getConnection();
             PreparedStatement statement = connection.prepareStatement(SQLActivity.CREATE.getQUERY())) {
             statement.setInt(1,activity.getActivityId());
             statement.setString(2,activity.getName());
@@ -28,7 +28,7 @@ public class ActivityDao implements GenericDao<Activity> {
     @Override
     public Activity getById(int key){
         Activity activity=null;
-        try(Connection connection = SimpleConnection.getInstance().getConnection();
+        try(Connection connection = ConnectionPool.getInstance().getConnection();
         PreparedStatement statement = connection.prepareStatement(SQLActivity.SELECT_BY_ID.getQUERY())){
             statement.setInt(1,key);
             ResultSet resultSet = statement.executeQuery();
@@ -49,7 +49,7 @@ public class ActivityDao implements GenericDao<Activity> {
 
     @Override
     public void update(Activity activity, int id){
-        try(Connection connection = SimpleConnection.getInstance().getConnection();
+        try(Connection connection = ConnectionPool.getInstance().getConnection();
         PreparedStatement statement = connection.prepareStatement(SQLActivity.UPDATE.getQUERY())){
             statement.setInt(3,id);
             statement.setInt(1,activity.getActivityId());
@@ -64,7 +64,7 @@ public class ActivityDao implements GenericDao<Activity> {
 
     @Override
     public void delete(int id){
-        try(Connection connection = SimpleConnection.getInstance().getConnection();
+        try(Connection connection = ConnectionPool.getInstance().getConnection();
         PreparedStatement statement = connection.prepareStatement(SQLActivity.DELETE.getQUERY())){
             statement.setInt(1,id);
             statement.executeUpdate();
@@ -76,12 +76,14 @@ public class ActivityDao implements GenericDao<Activity> {
     }
 
     @Override
-    public List<Activity> getAll(){
+    public List<Activity> getAllWithPagination(int offset, int recordPerPage){
         List<Activity> list = new ArrayList<>();
         Activity activity;
-        try(Connection connection = SimpleConnection.getInstance().getConnection();
-            Statement statement = connection.createStatement()){
-            ResultSet resultSet = statement.executeQuery(SQLActivity.SELECT_ALL.getQUERY());
+        try(Connection connection = ConnectionPool.getInstance().getConnection();
+        PreparedStatement statement = connection.prepareStatement(SQLActivity.SELECT_ALL_WITH_LIMITS.getQUERY())){
+            statement.setInt(1,offset);
+            statement.setInt(2,recordPerPage);
+            ResultSet resultSet = statement.executeQuery();
             while(resultSet.next()){
                 activity = new Activity();
                 activity.setActivityId(resultSet.getInt("activity_id"));
@@ -94,9 +96,15 @@ public class ActivityDao implements GenericDao<Activity> {
         return list;
     }
 
+    @Override
+    public int getCountObjects() {
+        return 0;
+    }
+
+
     enum SQLActivity{
         SELECT_BY_ID("SELECT * FROM activity WHERE activity_id=?"),
-        SELECT_ALL("SELECT * FROM activity"),
+        SELECT_ALL_WITH_LIMITS("SELECT * FROM activity LIMIT ?,?"),
         CREATE("INSERT INTO activity (activity_id, name) VALUES(?,?)"),
         UPDATE("UPDATE activity SET activity_id=?, name=? WHERE activity_id=?"),
         DELETE("DELETE FROM activity WHERE activity_id=?");

@@ -10,7 +10,7 @@ public class PageConfiguration {
     public static final String HOME_PAGE = "pageConfiguration.homePage";
     public static final String MAIN_PAGE = "pageConfiguration.mainPage";
     public static final String ERROR_PAGE = "pageConfiguration.errorPage";
-    public static final String LOGIN_PAGE = "pageConfiguration.loginPage";
+    public static final String ACCOUNT_PAGE = "pageConfiguration.account_page";
     public static final String ADMIN_PAGE = "pageConfiguration.adminPage";
     public static final String REGISTRATION_PAGE = "pageConfiguration.registrationPage";
 

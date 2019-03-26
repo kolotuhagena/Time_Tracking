@@ -70,12 +70,12 @@ public class RequestDaoTest {
         Assert.assertNull(requestDao.getById(request.getRequestId()));
     }
 
-    @Test
+    /*@Test
     public void getAll() {
         requestDao.create(request);
         List<Request> list;
         list = requestDao.getAll();
         Assert.assertNotNull(list);
         Assert.assertTrue(list.size()>0);
-    }
+    }*/
 }

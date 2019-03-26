@@ -32,13 +32,13 @@ public class UserDaoTest {
         Assert.assertNull(user);
     }
 
-    @Test
+    /*@Test
     public void getAll() {
         List<User> list;
         list = userDao.getAll();
         Assert.assertNotNull(list);
         Assert.assertTrue(list.size()>0);
-    }
+    }*/
 
     /**
      * Test of creating an user.

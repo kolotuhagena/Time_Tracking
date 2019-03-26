@@ -8,7 +8,7 @@ import java.io.IOException;
 @WebFilter(filterName = "encodingFilter",
 urlPatterns = {"/*"})
 public class EncodingFilter implements Filter {
-  private String encoding = "utf-8";
+  private String encoding = "UTF-8";
 
   @Override
   public void init(FilterConfig filterConfig) throws ServletException {
@@ -24,7 +24,8 @@ public class EncodingFilter implements Filter {
                        FilterChain chain)
           throws IOException, ServletException {
     request.setCharacterEncoding(encoding);
-    response.setContentType("text/html; charset=utf-8");
+    response.setContentType("text/html");
+    response.setCharacterEncoding(encoding);
     chain.doFilter(request, response);
   }
 

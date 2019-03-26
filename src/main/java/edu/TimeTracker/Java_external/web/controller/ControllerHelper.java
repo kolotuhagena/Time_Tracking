@@ -6,10 +6,6 @@ import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.ws.rs.HttpMethod;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.ResourceBundle;
 
 public class ControllerHelper extends CommandFactory {
     private static final Logger LOGGER = Logger.getLogger(ControllerHelper.class);
@@ -35,11 +31,10 @@ public class ControllerHelper extends CommandFactory {
                 return Commands.HOME.getCommand();
             case "logout":
                 return Commands.LOGOUT.getCommand();
-            case "pagination":
-                return Commands.PAGINATION.getCommand();
             case "registration":
                 return Commands.REGISTRATION.getCommand();
-
+            case "account":
+                return Commands.ACCOUNT_MANAGE.getCommand();
             default:
                 return Commands.MissingCommand.getCommand();
         }

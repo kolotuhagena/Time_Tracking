@@ -53,25 +53,20 @@ public String registration(HttpServletRequest request, String username, String p
         if (usernameOk) {
             user.setLogin(username);
         } else {
-            request.setAttribute("usernameBoolean", true);
-            request.setAttribute("usernameException",
-                    MessageUtil.getInstance().getMessageException(MessageUtil.USERNAME_EXCEPTION));
+            request.setAttribute("Exception", MessageUtil.getInstance().getMessageException(MessageUtil.USERNAME_EXCEPTION));
             return PageConfiguration.getInstance().getPageConfiguration(PageConfiguration.REGISTRATION_PAGE);
         }
         // if password is valid, here password converting to hashcode
         if (passwordOk) {
             user.setPassword(password.hashCode());
         } else {
-            request.setAttribute("passwordBoolean", true);
-            request.setAttribute("passwordException",
-                    MessageUtil.getInstance().getMessageException(MessageUtil.PASSWORD_EXCEPTION));
+            request.setAttribute("Exception",  MessageUtil.getInstance().getMessageException(MessageUtil.PASSWORD_EXCEPTION));
             return PageConfiguration.getInstance().getPageConfiguration(PageConfiguration.REGISTRATION_PAGE);
         }
         if (emailOk) {
                 user.setEmail(email);
         } else {
-            request.setAttribute("emailValid", false);
-            request.setAttribute("emailException",
+            request.setAttribute("Exception",
                     MessageUtil.getInstance().getMessageException(MessageUtil.EMAIL_EXCEPTION));
             return PageConfiguration.getInstance().getPageConfiguration(PageConfiguration.REGISTRATION_PAGE);
         }
@@ -79,16 +74,16 @@ public String registration(HttpServletRequest request, String username, String p
         userDao.create(user);
 
         request.setAttribute("createUser", true);
-        request.getSession().setAttribute("user", user);
+        request.getSession().setAttribute("login", user.getLogin());
+        request.getSession().setAttribute("id", user.getUserId());
+        request.getSession().setAttribute("password", user.getPassword());
         LOGGER.info("User was created: " + username);
         page = PageConfiguration.getInstance().getPageConfiguration(PageConfiguration.MAIN_PAGE);
 
     } else {
         LOGGER.info("Was attempt to registration with existing data");
-        request.setAttribute("existUsername", true);
-        request.setAttribute("existUsernameMessage",
-                MessageUtil.getInstance().getMessageException(
-                        MessageUtil.EXIST_USERNAME));
+        request.setAttribute("Exception",
+                MessageUtil.getInstance().getMessageException(MessageUtil.EXIST_USERNAME));
         page = PageConfiguration.getInstance().getPageConfiguration(PageConfiguration.REGISTRATION_PAGE);
     }
     return page;

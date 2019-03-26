@@ -1,6 +1,6 @@
 package edu.TimeTracker.Java_external.web.command;
 
-import edu.TimeTracker.Java_external.service.Pagination;
+
 
 public enum Commands {
     ADMINISTRATE(new AdministrateCommand()),
@@ -8,8 +8,8 @@ public enum Commands {
     HOME(new HomeCommand()),
     LOGOUT(new LogoutCommand()),
     MissingCommand(new MissingCommand()),
-    PAGINATION(new PaginationCommand()),
-    REGISTRATION(new RegistrationCommand());
+    REGISTRATION(new RegistrationCommand()),
+    ACCOUNT_MANAGE(new AccountManageCommand());
     Commands(Command command){
         this.command = command;
     }

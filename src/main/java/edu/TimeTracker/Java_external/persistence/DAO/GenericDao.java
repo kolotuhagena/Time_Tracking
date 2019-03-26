@@ -31,6 +31,13 @@ public interface GenericDao<T> {
     /**
      * Возвращает список объектов соответствующих всем записям в базе данных
      */
-     List<T> getAll() ;
+    List<T> getAllWithPagination(int offset, int recordPerPage) ;
+
+    /**
+     * Возвращает количество всех записей в базе данных
+     */
+    int getCountObjects() ;
+
+
 
 }

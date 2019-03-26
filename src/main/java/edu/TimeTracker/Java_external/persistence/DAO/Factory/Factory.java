@@ -1,9 +1,8 @@
 package edu.TimeTracker.Java_external.persistence.DAO.Factory;
 
-import edu.TimeTracker.Java_external.persistence.DAO.ActivityDao;
-import edu.TimeTracker.Java_external.persistence.DAO.RequestDao;
-import edu.TimeTracker.Java_external.persistence.DAO.TrackDao;
-import edu.TimeTracker.Java_external.persistence.DAO.UserDao;
+import edu.TimeTracker.Java_external.persistence.DAO.*;
+
+import java.util.List;
 
 public class Factory implements DAOFactory {
 
@@ -26,4 +25,5 @@ public class Factory implements DAOFactory {
     public RequestDao getRequestDao() {
         return new RequestDao();
     }
+
 }
