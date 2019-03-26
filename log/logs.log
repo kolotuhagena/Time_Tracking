@@ -1,0 +1,769 @@
+14:34:28,118 ERROR ConnectionPool.main:getConnection:38 - 
+14:34:28,129 ERROR ConnectionPool.main:getConnection:38 - 
+14:35:02,070 ERROR ConnectionPool.main:getConnection:38 - 
+14:35:02,102 ERROR ConnectionPool.main:getConnection:38 - 
+14:35:41,855 ERROR ConnectionPool.main:getConnection:38 - 
+14:35:41,881 ERROR ConnectionPool.main:getConnection:38 - 
+14:36:21,514 ERROR ConnectionPool.main:getConnection:38 - 
+14:36:21,524 ERROR ConnectionPool.main:getConnection:38 - 
+14:36:38,900 ERROR ConnectionPool.main:getConnection:38 - 
+14:40:54,196 ERROR ConnectionPool.main:getConnection:38 - 
+14:41:10,786 ERROR ConnectionPool.main:getConnection:38 - Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+14:41:10,799 ERROR ConnectionPool.main:getConnection:38 - Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+14:44:40,827 ERROR ConnectionPool.main:getConnection:38 - Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+14:45:07,815 ERROR ConnectionPool.main:getConnection:38 - Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+14:46:29,057 ERROR ConnectionPool.main:getConnection:38 - Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+14:46:47,573 ERROR ConnectionPool.main:getConnection:38 - Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+14:48:15,707 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@724af044
+14:50:58,922 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@724af044
+14:52:06,983 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@276438c9
+15:12:08,530 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@724af044
+15:12:47,010 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@724af044
+15:22:58,473 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@7fac631b
+15:23:48,850 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@7fac631b
+15:27:19,070 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@587e5365
+15:31:26,520 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@12bb4df8
+15:44:21,900 ERROR UserDao.main:getById:37 - [Ljava.lang.StackTraceElement;@7bd4937b
+15:45:09,756 ERROR UserDao.main:getById:37 - [Ljava.lang.StackTraceElement;@7bd4937b
+15:46:39,000 ERROR UserDao.main:getById:37 - [Ljava.lang.StackTraceElement;@21e360a
+16:19:56,368 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@7a7b0070
+16:20:26,025 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@7a7b0070
+17:45:04,777 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@7a765367
+17:45:35,249 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@37883b97
+17:47:49,020 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@7a765367
+17:48:23,473 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@37883b97
+17:50:37,955 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@37883b97
+17:51:04,021 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@37883b97
+17:52:10,676 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@33c7e1bb
+17:52:50,183 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@7a765367
+17:53:20,767 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@37883b97
+17:58:30,912 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@7a765367
+17:59:10,722 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@37883b97
+17:59:28,325 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@37883b97
+18:00:50,187 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@37883b97
+18:07:14,977 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@6ab778a
+18:07:56,585 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@37883b97
+18:09:09,703 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@4229bb3f
+18:10:23,230 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@37883b97
+18:13:37,263 INFO  UserDao.main:create:19 - User login was created
+18:14:28,302 ERROR UserDao.main:create:21 - [Ljava.lang.StackTraceElement;@307f6b8c
+18:15:20,380 ERROR UserDao.main:create:21 - User login is exist
+18:15:55,493 ERROR UserDao.main:create:21 - User with username login already exist
+18:20:58,139 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:20:58,214 ERROR UserDao.main:create:21 - User with username login already exist
+18:20:58,226 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:20:58,245 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:20:58,249 INFO  UserDao.main:delete:44 - User with id 2 was successful deleted.
+18:21:06,378 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:21:06,458 ERROR UserDao.main:create:21 - User with username login already exist
+18:21:06,470 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:21:06,496 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:21:06,499 INFO  UserDao.main:delete:44 - User with id 2 was successful deleted.
+18:21:47,571 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:21:47,623 ERROR UserDao.main:create:21 - User with username login already exist
+18:21:47,636 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:21:47,665 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:21:47,668 INFO  UserDao.main:delete:44 - User with id 2 was successful deleted.
+18:22:11,827 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:22:11,891 ERROR UserDao.main:create:21 - User with username login already exist
+18:22:11,904 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:22:11,951 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:22:11,960 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+18:22:17,285 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:22:17,338 INFO  UserDao.main:create:19 - User login was created
+18:22:17,347 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:22:17,371 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:22:17,376 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+18:27:44,569 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:27:44,631 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:27:44,639 INFO  UserDao.main:update:32 - User anAccount was updated
+18:27:44,645 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:33:15,457 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:33:15,544 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:33:15,554 INFO  UserDao.main:create:19 - User another was created
+18:33:15,561 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:33:15,569 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:33:15,576 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+18:33:15,582 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,320 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,378 INFO  UserDao.main:create:19 - User login was created
+18:34:08,387 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,414 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,420 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+18:34:08,436 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,443 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,450 INFO  UserDao.main:create:19 - User another was created
+18:34:08,455 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,463 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,472 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+18:34:08,482 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,493 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,502 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,509 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,511 INFO  UserDao.main:update:32 - User anAccount was updated
+18:34:08,518 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:08,528 INFO  SimpleConnection.main:getConnection:32 - Successful connection
+18:34:56,946 INFO  UserDao.main:create:19 - User login was created
+18:34:57,002 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+18:34:57,030 INFO  UserDao.main:create:19 - User another was created
+18:34:57,050 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+18:34:57,105 INFO  UserDao.main:update:32 - User anAccount was updated
+20:03:30,799 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@21588809
+20:03:30,882 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@6bc168e5
+20:03:30,893 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@2e5c649
+20:03:30,900 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@7382f612
+20:03:30,905 ERROR ConnectionPool.main:getConnection:38 - [Ljava.lang.StackTraceElement;@3caeaf62
+20:04:09,455 INFO  ActivityDao.main:create:23 - Activity sleep was created
+20:04:09,511 INFO  ActivityDao.main:delete:67 - Activity with 2 was deleted
+20:04:09,569 INFO  ActivityDao.main:update:55 - Activity sleep was updated
+20:06:22,917 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3cb1ffe6
+20:06:22,972 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@13c27452
+20:06:22,981 INFO  ActivityDao.main:delete:67 - Activity with 2 was deleted
+20:06:23,004 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1a3869f4
+20:06:23,027 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@ed9d034
+20:06:23,034 INFO  ActivityDao.main:update:55 - Activity sleep was updated
+20:06:23,051 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1060b431
+20:09:31,871 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3cb1ffe6
+20:09:31,931 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+20:09:31,957 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@7a3d45bd
+20:09:31,974 INFO  ActivityDao.main:update:55 - Activity sleep was updated
+20:10:50,342 INFO  ActivityDao.main:create:23 - Activity sleep was created
+20:10:50,398 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+20:10:50,463 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@44c8afef
+20:10:50,489 INFO  ActivityDao.main:update:55 - Activity sleep was updated
+20:14:18,592 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3cb1ffe6
+20:14:18,679 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+20:14:18,705 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@7a3d45bd
+20:14:18,735 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@76a3e297
+20:14:18,747 INFO  ActivityDao.main:update:55 - Activity sleep was updated
+20:14:18,775 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1060b431
+21:37:17,322 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@86be70a
+21:37:17,377 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:37:17,398 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@13c27452
+21:37:17,417 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1a3869f4
+21:37:17,426 INFO  ActivityDao.main:update:55 - Activity sleep was updated
+21:37:17,447 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@6121c9d6
+21:38:03,948 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3cb1ffe6
+21:38:03,990 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:38:04,009 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:38:04,032 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1a3869f4
+21:38:04,050 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:38:04,063 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@eafc191
+21:38:04,070 INFO  ActivityDao.main:update:55 - Activity sleep was updated
+21:38:04,082 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:38:04,098 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@6a1aab78
+21:38:04,121 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:38:09,808 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3cb1ffe6
+21:38:09,853 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:38:09,872 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:38:09,896 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1a3869f4
+21:38:09,924 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:38:09,936 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@eafc191
+21:38:09,942 INFO  ActivityDao.main:update:55 - Activity sleep was updated
+21:38:09,956 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:38:09,969 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@6a1aab78
+21:38:09,983 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:39:07,144 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3cb1ffe6
+21:39:07,205 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:39:07,227 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@7a3d45bd
+21:39:07,255 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@76a3e297
+21:39:07,262 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+21:39:07,285 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1060b431
+21:39:30,736 INFO  ActivityDao.main:create:23 - Activity sleep was created
+21:39:30,787 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:39:30,842 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@44c8afef
+21:39:30,860 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@371a67ec
+21:39:30,874 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+21:39:30,899 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@eafc191
+21:40:37,957 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3cb1ffe6
+21:40:38,023 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:40:38,049 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1e7c7811
+21:40:38,069 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:40:38,085 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@ed9d034
+21:40:38,093 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+21:40:38,111 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@612679d6
+21:41:00,068 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3cb1ffe6
+21:41:00,128 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:41:00,147 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1e7c7811
+21:41:00,163 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:41:00,182 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@ed9d034
+21:41:00,190 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+21:41:00,212 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@612679d6
+21:41:53,410 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:41:53,460 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@467aecef
+21:41:53,499 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:41:53,520 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1a3869f4
+21:41:53,537 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:41:53,552 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@87f383f
+21:41:53,559 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+21:41:53,578 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@e720b71
+21:42:35,031 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3cb1ffe6
+21:42:45,224 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:42:45,267 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@6f195bc3
+21:43:16,756 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:43:20,282 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@383bfa16
+21:44:38,135 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:44:38,196 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@6f195bc3
+21:49:24,220 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:49:24,281 ERROR ActivityDao.main:delete:69 - [Ljava.lang.StackTraceElement;@47987356
+21:49:24,300 INFO  ActivityDao.main:create:23 - Activity sleep was created
+21:49:24,400 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:49:33,819 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:49:33,871 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@6f195bc3
+21:49:33,908 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:50:44,350 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:50:44,402 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@467aecef
+21:50:44,436 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:50:44,455 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:50:44,466 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@13c27452
+21:50:44,488 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:50:44,500 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:50:44,509 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@63440df3
+21:50:44,520 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+21:50:44,542 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:50:44,555 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@462d5aee
+21:51:15,250 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:52:07,178 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:52:07,223 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@6f195bc3
+21:54:19,783 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:54:19,813 INFO  ActivityDao.main:create:23 - Activity sleep was created
+21:54:36,215 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:54:36,241 INFO  ActivityDao.main:create:23 - Activity sleep was created
+21:54:36,281 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:54:36,305 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:54:36,340 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@13c27452
+21:54:36,358 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:54:36,367 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:54:36,378 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@63440df3
+21:54:36,388 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+21:54:36,415 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:54:36,434 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@462d5aee
+21:55:01,356 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:55:01,418 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@467aecef
+21:55:01,465 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:55:01,487 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:55:01,498 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@77f99a05
+21:55:01,515 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:55:01,527 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:55:01,535 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1060b431
+21:55:01,543 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+21:55:01,561 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:55:01,572 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@69b0fd6f
+21:58:52,254 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:58:52,285 INFO  ActivityDao.main:create:23 - Activity sleep was created
+21:58:52,330 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:58:52,350 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:58:52,389 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@13c27452
+21:58:52,410 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:58:52,422 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+21:58:52,434 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@63440df3
+21:58:52,450 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:00:35,176 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:00:35,207 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:00:35,242 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:00:35,264 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:00:35,299 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@13c27452
+22:00:35,319 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:00:35,334 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:00:35,347 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@63440df3
+22:00:35,358 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:01:09,649 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:09,680 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:01:09,715 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:09,736 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:09,770 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@13c27452
+22:01:09,788 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:09,802 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:09,813 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@63440df3
+22:01:09,823 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:01:09,837 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:53,097 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:53,129 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:01:53,168 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:53,193 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:53,223 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@13c27452
+22:01:53,238 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:53,250 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:01:53,259 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@63440df3
+22:01:53,270 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:01:53,295 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@87f383f
+22:02:19,002 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:02:19,049 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@467aecef
+22:02:19,094 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:02:19,123 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:02:19,139 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@77f99a05
+22:02:19,162 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:02:19,176 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:02:19,189 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1060b431
+22:02:19,197 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:02:19,215 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@74ad1f1f
+22:02:54,996 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:02:55,020 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:02:56,221 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:02:56,868 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:02:56,894 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@c88a337
+22:02:57,619 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:02:58,126 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:02:58,136 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3ee37e5a
+22:02:58,145 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:03:14,122 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@f0da945
+22:04:00,767 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:00,810 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@467aecef
+22:04:00,860 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:00,880 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:00,894 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@77f99a05
+22:04:00,912 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:00,925 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:00,936 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@1060b431
+22:04:00,944 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:04:00,960 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:00,983 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@462d5aee
+22:04:14,530 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:14,557 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:04:14,601 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:14,631 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:14,689 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@46daef40
+22:04:14,709 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:14,725 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:14,737 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@a38d7a3
+22:04:14,747 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:04:14,764 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:04:14,788 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@87f383f
+22:06:47,641 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:06:47,674 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:06:47,723 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:06:47,754 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:06:47,787 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@44c8afef
+22:06:47,805 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:06:47,817 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:06:47,826 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@77ec78b9
+22:06:47,836 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:06:47,852 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:06:47,872 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@ed9d034
+22:07:19,050 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:07:19,078 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:07:19,120 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:07:19,143 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:07:19,178 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@44c8afef
+22:07:19,198 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:07:19,208 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:07:19,218 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@77ec78b9
+22:07:19,229 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:07:19,265 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:07:19,287 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@ed9d034
+22:07:19,304 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:08:41,729 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:08:41,759 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@42d8062c
+22:08:41,791 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:08:41,807 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:08:41,817 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@8e24743
+22:08:41,829 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:08:41,840 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:08:41,851 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@43738a82
+22:08:41,856 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:08:41,870 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:08:41,890 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@3891771e
+22:08:41,908 INFO  ActivityDao.main:delete:67 - Activity with 1 was deleted
+22:08:41,944 INFO  UserDao.main:create:20 - User login was created
+22:08:41,962 INFO  UserDao.main:delete:46 - User with id 2 was successful deleted.
+22:08:41,982 INFO  UserDao.main:create:20 - User another was created
+22:08:41,994 INFO  UserDao.main:delete:46 - User with id 2 was successful deleted.
+22:08:42,018 INFO  UserDao.main:update:33 - User anAccount was updated
+22:12:00,607 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+22:12:00,630 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:12:00,689 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+22:12:00,734 INFO  UserDao.main:create:20 - User login was created
+22:12:00,754 INFO  UserDao.main:delete:46 - User with id 2 was successful deleted.
+22:12:00,774 INFO  UserDao.main:create:20 - User another was created
+22:12:00,794 INFO  UserDao.main:delete:46 - User with id 2 was successful deleted.
+22:12:00,845 INFO  UserDao.main:update:33 - User anAccount was updated
+22:13:54,041 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+22:13:54,070 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:13:54,129 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+22:13:54,147 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+22:13:54,172 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:13:54,199 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+22:13:54,211 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+22:13:54,223 INFO  ActivityDao.main:create:23 - Activity sleep was created
+22:13:54,234 INFO  ActivityDao.main:update:55 - Activity Wakeup was updated
+22:13:54,264 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+22:13:54,275 INFO  ActivityDao.main:create:23 - Activity Wakeup was created
+22:13:54,294 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+22:13:54,312 INFO  UserDao.main:create:20 - User login was created
+22:13:54,331 INFO  UserDao.main:delete:46 - User with id 2 was successful deleted.
+22:13:54,355 INFO  UserDao.main:create:20 - User another was created
+22:13:54,384 INFO  UserDao.main:delete:46 - User with id 2 was successful deleted.
+22:13:54,428 INFO  UserDao.main:update:33 - User anAccount was updated
+23:15:52,455 INFO  TrackDao.main:create:30 - Track with id 1 was successful create
+23:17:03,798 ERROR TrackDao.main:create:32 - [Ljava.lang.StackTraceElement;@7b69c6ba
+23:17:29,368 ERROR TrackDao.main:create:32 - [Ljava.lang.StackTraceElement;@4803b726
+23:19:45,392 INFO  TrackDao.main:create:30 - Track with id 1 was successful create
+23:21:54,668 ERROR TrackDao.main:create:32 - [Ljava.lang.StackTraceElement;@436e852b
+23:23:02,269 ERROR TrackDao.main:create:32 - 
+23:23:18,325 ERROR TrackDao.main:create:32 - 
+23:25:00,617 ERROR TrackDao.main:create:32 - [Ljava.lang.StackTraceElement;@c46bcd4Track wasn't create
+23:25:31,876 ERROR TrackDao.main:create:32 - Track wasn't create[Ljava.lang.StackTraceElement;@631330c
+23:26:09,770 ERROR TrackDao.main:create:32 - Track wasn't create. This is stack trace[Ljava.lang.StackTraceElement;@2353b3e6
+23:26:40,897 INFO  TrackDao.main:create:30 - Track with id 1 was successful create
+23:28:16,933 INFO  TrackDao.main:create:30 - Track with id 1 was successful create
+23:28:33,525 ERROR TrackDao.main:create:32 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@2353b3e6
+23:39:41,009 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+23:39:41,040 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+23:39:41,090 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+23:41:16,915 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+23:41:16,957 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+23:42:36,856 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@485966cc
+23:43:13,068 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+23:43:57,352 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@25af5db5
+23:43:57,404 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+23:44:37,391 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@25af5db5
+23:44:37,427 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+21:45:30,764 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@25af5db5
+21:45:30,786 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+23:50:31,328 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@e874448
+23:52:31,702 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@6fd83fc1
+00:01:00,245 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@4f2b503c
+00:02:12,994 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:03:02,992 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:03:35,298 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@cb51256
+00:03:48,331 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:05:06,707 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@cb51256
+00:05:22,311 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:06:20,137 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@cb51256
+00:06:34,424 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:23:48,922 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:23:48,949 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+00:23:48,996 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:25:20,071 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:25:20,118 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:25:20,152 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:25:20,180 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:25:20,196 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:25:20,219 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:25:20,245 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:25:20,278 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+00:25:20,314 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:25:20,334 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:25:20,359 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:26:01,442 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:26:01,491 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:26:01,528 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:26:01,566 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:26:01,586 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:26:01,611 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:26:01,672 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:26:01,692 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:26:01,716 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+00:26:01,749 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+00:26:01,768 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+00:26:01,799 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:18:54,714 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:19:20,354 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:30:20,964 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:30:38,375 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:35:45,801 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:35:45,897 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:35:45,915 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:36:10,771 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:36:10,852 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:36:10,869 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:38:50,822 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:38:50,917 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:38:50,934 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:39:06,049 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:39:06,127 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:39:06,144 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:03,788 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:41:03,869 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:03,887 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:41:03,937 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:03,952 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:03,977 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:41:04,029 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:04,045 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:41:04,092 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:04,107 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:41:04,138 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:47,841 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:41:47,865 INFO  ActivityDao.main:create:23 - Activity sleep was created
+01:41:47,905 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:41:47,926 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:41:47,941 INFO  ActivityDao.main:create:23 - Activity sleep was created
+01:41:47,973 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:41:47,985 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:41:47,995 INFO  ActivityDao.main:create:23 - Activity sleep was created
+01:41:48,019 ERROR ActivityDao.main:update:57 - [Ljava.lang.StackTraceElement;@1d371b2d
+01:41:48,066 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:41:48,077 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@12c8a2c0
+01:41:48,095 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:41:48,119 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:41:48,142 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:48,159 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:41:48,173 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:48,192 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:41:48,202 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:48,220 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:41:48,250 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:41:48,284 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:41:48,324 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@5c18298f
+01:41:48,345 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:41:48,366 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@17211155
+01:41:48,393 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@52525845
+01:41:48,404 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:41:48,417 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@4516af24
+01:41:48,430 ERROR TrackDao.main:update:54 - Track wasn't update. This is stack trace: [Ljava.lang.StackTraceElement;@1da51a35
+01:41:48,446 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:41:48,465 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@4b53f538
+01:41:48,629 INFO  UserDao.main:create:19 - User login was created
+01:41:48,738 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+01:41:48,755 INFO  UserDao.main:create:19 - User another was created
+01:41:48,772 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+01:41:48,800 INFO  UserDao.main:update:32 - User anAccount was updated
+01:42:43,220 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:43,295 INFO  ActivityDao.main:create:23 - Activity sleep was created
+01:42:43,368 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:43,405 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:43,430 INFO  ActivityDao.main:create:23 - Activity sleep was created
+01:42:43,466 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:43,480 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:43,514 INFO  ActivityDao.main:create:23 - Activity sleep was created
+01:42:43,554 ERROR ActivityDao.main:update:57 - [Ljava.lang.StackTraceElement;@74ad1f1f
+01:42:43,602 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:43,633 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@569cfc36
+01:42:43,658 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:43,682 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:42:43,700 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:42:43,729 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:42:43,745 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:42:43,778 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:42:43,793 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:42:43,812 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:42:43,833 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:42:43,859 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:42:43,891 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@eb21112
+01:42:43,907 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:42:43,924 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@4d1b0d2a
+01:42:43,946 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@545997b1
+01:42:43,966 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:42:43,980 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@24a35978
+01:42:43,993 ERROR TrackDao.main:update:54 - Track wasn't update. This is stack trace: [Ljava.lang.StackTraceElement;@fcd6521
+01:42:44,008 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:42:44,028 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@5d11346a
+01:42:44,055 INFO  UserDao.main:create:19 - User login was created
+01:42:44,079 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+01:42:44,116 INFO  UserDao.main:create:19 - User another was created
+01:42:44,136 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+01:42:44,183 INFO  UserDao.main:update:32 - User anAccount was updated
+01:42:59,351 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:59,378 INFO  ActivityDao.main:create:23 - Activity sleep was created
+01:42:59,443 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:59,461 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:59,476 INFO  ActivityDao.main:create:23 - Activity sleep was created
+01:42:59,503 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:59,514 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:59,529 INFO  ActivityDao.main:create:23 - Activity sleep was created
+01:42:59,562 ERROR ActivityDao.main:update:57 - [Ljava.lang.StackTraceElement;@a38d7a3
+01:42:59,607 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:42:59,618 ERROR ActivityDao.main:create:25 - [Ljava.lang.StackTraceElement;@74ad1f1f
+01:42:59,639 INFO  ActivityDao.main:delete:68 - Activity with 1 was deleted
+01:43:09,026 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:43:09,081 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:43:09,109 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:43:09,128 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:43:09,145 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:43:09,174 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:43:09,196 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:43:09,219 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:43:09,242 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:43:17,540 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@2173f6d9
+01:43:17,569 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:43:17,608 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@687080dc
+01:43:17,643 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@60285225
+01:43:17,661 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:43:17,688 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@12cdcf4
+01:43:17,706 ERROR TrackDao.main:update:54 - Track wasn't update. This is stack trace: [Ljava.lang.StackTraceElement;@670b40af
+01:43:17,744 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:43:17,777 ERROR TrackDao.main:create:25 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@7a3d45bd
+01:44:00,132 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:44:00,197 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:44:00,231 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:44:00,248 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:44:00,273 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:44:00,293 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:44:00,309 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:44:00,332 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:44:00,389 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:44:52,101 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:44:52,163 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:44:52,210 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:44:52,234 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:44:52,272 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:44:52,294 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:44:52,313 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:44:52,338 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:44:52,378 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+01:48:45,855 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:48:45,903 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:49:21,314 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:49:21,371 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:51:29,469 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:51:29,526 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:51:29,550 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:51:29,572 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:51:29,592 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:51:29,609 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:51:29,634 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:51:29,658 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:51:29,670 INFO  ActivityDao.main:update:55 - Activity makeup was updated
+01:51:29,702 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:51:29,717 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:51:29,739 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:52:22,752 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:52:22,813 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:52:22,831 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:52:22,852 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:52:22,873 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:52:22,900 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:52:22,925 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:52:22,937 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:52:22,951 INFO  ActivityDao.main:update:55 - Activity makeup was updated
+01:52:22,983 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:52:23,003 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+01:52:23,020 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+01:52:23,037 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:52:23,070 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:52:23,083 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:52:23,115 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:52:23,133 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:52:23,240 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:52:23,267 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:52:23,284 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:52:23,327 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:52:23,343 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+01:52:23,364 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+01:52:23,393 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+01:52:23,415 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:52:23,435 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+01:52:23,454 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:52:23,466 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:52:23,577 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+01:52:23,597 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:52:23,616 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+01:52:23,632 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+01:52:23,649 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:52:23,669 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+01:52:23,687 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+01:52:23,701 INFO  UserDao.main:create:19 - User login was created
+01:52:23,722 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+01:52:23,740 INFO  UserDao.main:create:19 - User another was created
+01:52:23,797 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+01:52:23,831 INFO  UserDao.main:update:32 - User anAccount was updated
+14:22:52,669 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+14:22:52,718 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+14:22:52,734 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+14:22:52,757 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+14:22:52,772 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+14:22:52,786 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+14:22:52,809 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+14:22:52,821 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+14:22:52,836 INFO  ActivityDao.main:update:55 - Activity makeup was updated
+14:22:52,853 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+14:22:52,872 INFO  ActivityDao.main:create:23 - Activity wakeup was created
+14:22:52,904 INFO  ActivityDao.main:delete:68 - Activity with 2 was deleted
+14:22:52,939 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+14:22:52,981 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+14:22:52,996 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+14:22:53,028 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+14:22:53,048 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+14:22:53,062 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+14:22:53,088 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+14:22:53,099 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+14:22:53,139 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+14:22:53,149 INFO  RequestDao.main:create:19 - Request with id 1 was successful create
+14:22:53,180 INFO  RequestDao.main:delete:68 - Request with id 1 was successful delete
+14:22:53,203 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+14:22:53,223 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+14:22:53,241 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+14:22:53,267 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+14:22:53,280 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+14:22:53,297 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+14:22:53,320 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+14:22:53,340 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+14:22:53,355 INFO  TrackDao.main:update:52 - Track with id 1 was successful update
+14:22:53,376 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+14:22:53,393 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+14:22:53,409 INFO  TrackDao.main:delete:76 - Track with id 1 was successful delete
+14:22:53,420 INFO  UserDao.main:create:19 - User login was created
+14:22:53,434 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+14:22:53,450 INFO  UserDao.main:create:19 - User another was created
+14:22:53,466 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+14:22:53,504 INFO  UserDao.main:update:32 - User anAccount was updated
+18:31:20,837 ERROR ConnectionPool.main:getConnection:37 - [Ljava.lang.StackTraceElement;@707f7052
+18:31:20,864 ERROR ConnectionPool.main:getConnection:37 - [Ljava.lang.StackTraceElement;@7b1d7fff
+18:31:20,867 ERROR ConnectionPool.main:getConnection:37 - [Ljava.lang.StackTraceElement;@383534aa
+18:31:20,872 ERROR ConnectionPool.main:getConnection:37 - [Ljava.lang.StackTraceElement;@7b3300e5
+18:31:20,875 ERROR ConnectionPool.main:getConnection:37 - [Ljava.lang.StackTraceElement;@136432db
+20:54:04,524 INFO  ActivityDao.main:create:22 - Activity wakeup was created
+20:54:04,580 INFO  ActivityDao.main:delete:72 - Activity with 2 was deleted
+20:54:04,604 INFO  ActivityDao.main:create:22 - Activity wakeup was created
+20:54:04,625 INFO  ActivityDao.main:delete:72 - Activity with 2 was deleted
+20:54:04,641 INFO  ActivityDao.main:delete:72 - Activity with 2 was deleted
+20:54:04,676 INFO  ActivityDao.main:create:22 - Activity wakeup was created
+20:54:04,698 INFO  ActivityDao.main:delete:72 - Activity with 2 was deleted
+20:54:04,711 INFO  ActivityDao.main:create:22 - Activity wakeup was created
+20:54:04,724 INFO  ActivityDao.main:update:59 - Activity makeup was updated
+20:54:04,755 INFO  ActivityDao.main:delete:72 - Activity with 2 was deleted
+20:54:04,784 INFO  ActivityDao.main:create:22 - Activity wakeup was created
+20:54:04,805 INFO  ActivityDao.main:delete:72 - Activity with 2 was deleted
+20:54:04,873 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+20:54:04,886 INFO  RequestDao.main:delete:73 - Request with id 1 was successful delete
+20:54:04,907 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+20:54:04,920 INFO  RequestDao.main:delete:73 - Request with id 1 was successful delete
+20:54:04,935 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+20:54:04,947 INFO  RequestDao.main:delete:73 - Request with id 1 was successful delete
+20:54:04,991 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+20:54:05,015 INFO  RequestDao.main:delete:73 - Request with id 1 was successful delete
+20:54:05,036 ERROR RequestDao.main:create:21 - Request with id 1 wasn't create
+20:54:05,110 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+20:54:05,131 INFO  TrackDao.main:delete:81 - Track with id 1 was successful delete
+20:54:05,147 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+20:54:05,167 INFO  TrackDao.main:delete:81 - Track with id 1 was successful delete
+20:54:05,178 INFO  TrackDao.main:delete:81 - Track with id 1 was successful delete
+20:54:05,204 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+20:54:05,226 INFO  TrackDao.main:delete:81 - Track with id 1 was successful delete
+20:54:05,245 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+20:54:05,271 INFO  TrackDao.main:update:57 - Track with id 1 was successful update
+20:54:05,299 INFO  TrackDao.main:delete:81 - Track with id 1 was successful delete
+20:54:05,319 INFO  TrackDao.main:create:23 - Track with id 1 was successful create
+20:54:05,429 INFO  TrackDao.main:delete:81 - Track with id 1 was successful delete
+20:54:05,452 ERROR ConnectionPool.main:getConnection:37 - [Ljava.lang.StackTraceElement;@7e9a5fbe
+20:54:05,489 ERROR ConnectionPool.main:getConnection:37 - [Ljava.lang.StackTraceElement;@71623278
+20:54:05,502 ERROR ConnectionPool.main:getConnection:37 - [Ljava.lang.StackTraceElement;@5a4041cc
+20:54:05,506 ERROR ConnectionPool.main:getConnection:37 - [Ljava.lang.StackTraceElement;@61ca2dfa
+20:54:05,508 ERROR ConnectionPool.main:getConnection:37 - [Ljava.lang.StackTraceElement;@134593bf
+14:00:57,367 ERROR ActivityDao.main:create:24 - [Ljava.lang.StackTraceElement;@3234e239
+14:00:57,430 ERROR ActivityDao.main:delete:74 - [Ljava.lang.StackTraceElement;@262b2c86
+14:00:57,456 ERROR ActivityDao.main:create:24 - [Ljava.lang.StackTraceElement;@612fc6eb
+14:00:57,482 ERROR ActivityDao.main:delete:74 - [Ljava.lang.StackTraceElement;@e720b71
+14:00:57,506 ERROR ActivityDao.main:delete:74 - [Ljava.lang.StackTraceElement;@462d5aee
+14:00:57,527 ERROR ActivityDao.main:create:24 - [Ljava.lang.StackTraceElement;@4a87761d
+14:00:57,554 INFO  ActivityDao.main:update:59 - Activity makeup was updated
+14:00:57,593 ERROR ActivityDao.main:delete:74 - [Ljava.lang.StackTraceElement;@6950e31
+14:00:57,605 ERROR ActivityDao.main:create:24 - [Ljava.lang.StackTraceElement;@42eca56e
+14:00:57,639 ERROR ActivityDao.main:delete:74 - [Ljava.lang.StackTraceElement;@3ecd23d9
+14:00:57,675 ERROR RequestDao.main:create:22 - Request with id 1 wasn't create
+14:00:57,693 INFO  RequestDao.main:delete:74 - Request with id 1 was successful delete
+14:00:57,714 ERROR RequestDao.main:create:22 - Request with id 1 wasn't create
+14:00:57,732 INFO  RequestDao.main:delete:74 - Request with id 1 was successful delete
+14:00:57,753 ERROR RequestDao.main:create:22 - Request with id 1 wasn't create
+14:00:57,793 INFO  RequestDao.main:delete:74 - Request with id 1 was successful delete
+14:00:57,873 ERROR RequestDao.main:create:22 - Request with id 1 wasn't create
+14:00:57,933 ERROR TrackDao.main:create:26 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@4524411f
+14:00:57,960 INFO  TrackDao.main:delete:84 - Track with id 1 was successful delete
+14:00:57,998 ERROR TrackDao.main:create:26 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@706a04ae
+14:00:58,029 ERROR TrackDao.main:create:26 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@149494d8
+14:00:58,045 ERROR TrackDao.main:update:60 - Track wasn't update. This is stack trace: [Ljava.lang.StackTraceElement;@78186a70
+14:00:58,058 INFO  TrackDao.main:delete:84 - Track with id 1 was successful delete
+14:00:58,077 ERROR TrackDao.main:create:26 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@704921a5
+14:00:58,108 INFO  UserDao.main:create:19 - User login was created
+14:00:58,132 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.

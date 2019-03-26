@@ -23,7 +23,6 @@ a {
     margin-top: 5vh;
     cursor: pointer;
     text-transform: uppercase;
-    /*    padding: 25px 55px;*/
     width: 160px;
     height: 60px;
     border: 0px;
@@ -39,6 +38,13 @@ a {
 .main__btn:hover {
     background-color: #006a6a;
     transition: 0.5s;
+}
+
+.main__btn--small {
+    display: inline-block;
+    margin-top: 0vh;
+    width: 80px;
+    height: 30px;
 }
 
 .main-header {
@@ -188,7 +194,8 @@ table {
     border-collapse: collapse;
     text-align: center;
 }
-caption{
+
+caption {
     color: #333;
     font-size: 3.5vh;
 }
@@ -216,6 +223,26 @@ td:first-child {
     text-align: left;
 }
 
-input[type="number"]{
+input[type="number"] {
     width: 50px;
+}
+
+/**********************time-tracker*****************/
+.time-tracker__wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.time-tracker__select {
+    margin-top: 1vh;
+    display: inline-block;
+    width: 210px;
+}
+.time-tracker__title{
+    margin-top: 3vh;
 }

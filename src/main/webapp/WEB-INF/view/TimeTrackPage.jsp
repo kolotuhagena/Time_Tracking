@@ -25,7 +25,7 @@
 <body>
 <jsp:include page="Components/header.jsp"/>
 <table>
-    <th><fmt:message key="main.track_id"/> </th>
+    <th><fmt:message key="main.track_id"/></th>
     <th><fmt:message key="main.activity_name"/></th>
     <th><fmt:message key="main.active"/></th>
     <th><fmt:message key="main.completed"/></th>
@@ -63,35 +63,41 @@
         </div>
     </div>
 </div>
+<div class="time-tracker">
+    <h3 class="time-tracker__title"><fmt:message key="main.update_name_form"/></h3>
+    <form action="?act=update" method="post">
+        <select required name="number" type="number">
+            <c:forEach items="${sessionScope.trackList}" var="trackList">
+                <option value="${trackList.trackID}"><c:out value="${trackList.trackID}"/></option>
+            </c:forEach>
+        </select>
+        <input required name="time" type="text"/>
+        <input value="${button}" type="submit" class="main__btn main__btn--small"/>
+    </form>
 
-<h3><fmt:message key="main.update_name_form"/> </h3>
-<form action="?act=update" method="post">
-    <select required name="number" type="number">
-        <c:forEach items="${sessionScope.trackList}" var="trackList">
-            <option value="${trackList.trackID}"><c:out value="${trackList.trackID}"/></option>
-        </c:forEach>
-    </select>
-    <input required name="time" type="text"/>
-    <input value="${button}" type="submit"/>
-</form>
+    <h3 class="time-tracker__title"><fmt:message key="main.add_name_form"/></h3>
+    <form action="?act=add" method="post">
+        <div class="time-tracker__select">
+            <select required name="activity" type="number">
+                <c:forEach items="${sessionScope.activityList}" var="activityList">
+                    <option value="${activityList.activityId}"><c:out value="${activityList.name}"/></option>
+                </c:forEach>
+            </select>
+        </div>
+        <input value="${add}" type="submit" class="main__btn main__btn--small"/>
+    </form>
+    <h3 class="time-tracker__title"><fmt:message key="main.delete_name_form"/></h3>
+    <form action="?act=delete" method="post">
+        <div class="time-tracker__select">
+            <select required name="number" type="number">
+                <c:forEach items="${sessionScope.trackList}" var="trackList">
+                    <option value="${trackList.trackID}"><c:out value="${trackList.trackID}"/></option>
+                </c:forEach>
+            </select>
+        </div>
+        <input value="${delete}" type="submit" class="main__btn main__btn--small"/>
 
-<h3><fmt:message key="main.add_name_form"/> </h3>
-<form action="?act=add" method="post">
-    <select required name="activity" type="number">
-        <c:forEach items="${sessionScope.activityList}" var="activityList">
-            <option value="${activityList.activityId}"><c:out value="${activityList.name}"/></option>
-        </c:forEach>
-    </select>
-    <input value="${add}" type="submit"/>
-</form>
-<h3><fmt:message key="main.delete_name_form"/></h3>
-<form action="?act=delete" method="post">
-    <select required name="number" type="number">
-        <c:forEach items="${sessionScope.trackList}" var="trackList">
-            <option value="${trackList.trackID}"><c:out value="${trackList.trackID}"/></option>
-        </c:forEach>
-    </select>
-    <input value="${delete}" type="submit"/>
-</form>
+    </form>
+</div>
 </body>
 </html>
