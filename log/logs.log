@@ -767,3 +767,19 @@
 14:00:58,077 ERROR TrackDao.main:create:26 - Track wasn't create. This is stack trace: [Ljava.lang.StackTraceElement;@704921a5
 14:00:58,108 INFO  UserDao.main:create:19 - User login was created
 14:00:58,132 INFO  UserDao.main:delete:45 - User with id 2 was successful deleted.
+14:35:51,861 DEBUG AnnotationConfigApplicationContext.main:prepareRefresh:594 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5fcfe4b2
+14:35:51,908 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:35:52,046 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+14:35:52,046 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+14:35:52,062 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:35:52,062 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:35:52,131 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'javaConfig'
+14:35:52,146 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'userService'
+14:36:04,874 DEBUG AnnotationConfigApplicationContext.main:prepareRefresh:594 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4566e5bd
+14:36:04,906 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:36:05,006 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+14:36:05,022 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+14:36:05,022 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:36:05,022 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:36:05,041 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'javaConfig'
+14:36:05,044 DEBUG DefaultListableBeanFactory.main:getSingleton:213 - Creating shared instance of singleton bean 'userService'

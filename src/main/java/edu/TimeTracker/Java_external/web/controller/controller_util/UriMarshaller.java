@@ -1,6 +1,7 @@
 package edu.TimeTracker.Java_external.web.controller.controller_util;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;
@@ -10,7 +11,7 @@ public class UriMarshaller {
     private String action = null;
     /*Supposing we have uri /Login/SignIn, then SignIn action has index 1
      * in an array splitted by '/' */
-    private final static Logger logger = Logger.getLogger(UriMarshaller.class);
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
 
     public UriMarshaller(HttpServletRequest request) {
@@ -30,7 +31,7 @@ public class UriMarshaller {
             try {
                 action = parseUri();
             } catch (RuntimeException e) {
-                logger.info(e.getMessage());
+                LOGGER.info(e.getMessage());
             }
         }
         return action;

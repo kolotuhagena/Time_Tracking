@@ -1,6 +1,7 @@
+/*
 package edu.TimeTracker.Java_external.web.command;
 
-import edu.TimeTracker.Java_external.persistence.entity.Request;
+import edu.TimeTracker.Java_external.domain.entity.Request;
 import edu.TimeTracker.Java_external.service.Administrate;
 import edu.TimeTracker.Java_external.web.controller.controller_util.PageConfiguration;
 
@@ -9,13 +10,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import static java.util.Objects.nonNull;
 
 public class AdministrateCommand implements Command{
-    /**
+    */
+/**
      * Method for forward on home(main) page
      *
      * @param request
@@ -23,7 +24,8 @@ public class AdministrateCommand implements Command{
      * @return page
      * @throws ServletException
      * @throws IOException
-     */
+     *//*
+
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String act = request.getParameter("act");
@@ -34,7 +36,7 @@ public class AdministrateCommand implements Command{
             list =(List<Request>) reqList;
         }
             for (Request userReq : list){
-                Administrate.getInstance().response(userReq.getRequestId(), request.getParameter("opt"+userReq.getRequestId()));
+                Administrate.getInstance().response(userReq.getId(), request.getParameter("opt"+userReq.getId()));
             }
         int startPage = 1;
         if (request.getParameter("page") != null) {
@@ -50,3 +52,4 @@ public class AdministrateCommand implements Command{
         return PageConfiguration.getInstance().getPageConfiguration(PageConfiguration.ADMIN_PAGE);
     }
 }
+*/

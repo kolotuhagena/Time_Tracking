@@ -1,18 +1,17 @@
+/*
 package edu.TimeTracker.Java_external.service;
 
-import edu.TimeTracker.Java_external.persistence.DAO.Factory.DAOFactory;
-import edu.TimeTracker.Java_external.persistence.DAO.Factory.Factory;
-import edu.TimeTracker.Java_external.persistence.entity.Activity;
-import edu.TimeTracker.Java_external.persistence.entity.Request;
-import edu.TimeTracker.Java_external.persistence.entity.Track;
-import edu.TimeTracker.Java_external.persistence.entity.User;
-import org.apache.log4j.Logger;
+import edu.TimeTracker.Java_external.domain.entity.Request;
+import edu.TimeTracker.Java_external.domain.entity.Track;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.Time;
 import java.util.List;
 
 public class Administrate {
-    private static final Logger LOGGER = Logger.getLogger(Administrate.class);
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
+
     private static Administrate INSTANCE;
 
     private DAOFactory factory;
@@ -21,11 +20,13 @@ public class Administrate {
         factory = new Factory();
     }
 
-    /**
+    */
+/**
      * Singleton
      *
      * @return INSTANCE
-     */
+     *//*
+
     public static Administrate getInstance() {
         if (INSTANCE == null) {
             synchronized (Administrate.class) {
@@ -52,7 +53,7 @@ public class Administrate {
                 track.setCompleted(false);
 
                 factory.getTrackDao().create(track);
-                factory.getRequestDao().delete(request.getRequestId());
+                factory.getRequestDao().delete(request.getId());
 
 
             } else if(type.equals(Request.Type.DELETE)){
@@ -67,9 +68,11 @@ public class Administrate {
 
     }
 
-    /**
+    */
+/**
      * Method to get all request
-     */
+     *//*
+
     public List<Request> getRequest(int offset, int records) {
         return factory.getRequestDao().getAllWithPagination(offset, records);
     }
@@ -79,3 +82,4 @@ public class Administrate {
     }
 }
 
+*/

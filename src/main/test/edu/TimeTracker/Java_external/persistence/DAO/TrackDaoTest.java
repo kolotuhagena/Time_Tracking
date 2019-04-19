@@ -1,8 +1,7 @@
-package edu.TimeTracker.Java_external.persistence.DAO;
+package edu.TimeTracker.Java_external.domain.DAO;
 
-import edu.TimeTracker.Java_external.persistence.entity.Activity;
-import edu.TimeTracker.Java_external.persistence.DAO.Factory.Factory;
-import edu.TimeTracker.Java_external.persistence.entity.Track;
+import edu.TimeTracker.Java_external.domain.entity.Activity;
+import edu.TimeTracker.Java_external.domain.entity.Track;
 import org.junit.*;
 
 import java.sql.Time;

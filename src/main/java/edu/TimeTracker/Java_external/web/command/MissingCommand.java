@@ -1,13 +1,11 @@
 package edu.TimeTracker.Java_external.web.command;
 
 import edu.TimeTracker.Java_external.web.controller.controller_util.PageConfiguration;
-import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class MissingCommand implements Command {
-  private static final Logger LOGGER = Logger.getLogger(MissingCommand.class);
 
   /**
    * Method for missing command from user

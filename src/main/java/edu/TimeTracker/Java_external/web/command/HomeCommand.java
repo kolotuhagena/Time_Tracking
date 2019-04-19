@@ -1,9 +1,7 @@
+/*
 package edu.TimeTracker.Java_external.web.command;
 
 
-import edu.TimeTracker.Java_external.persistence.entity.Request;
-import edu.TimeTracker.Java_external.persistence.entity.User;
-import edu.TimeTracker.Java_external.service.Administrate;
 import edu.TimeTracker.Java_external.service.UserService.UserService;
 import edu.TimeTracker.Java_external.web.controller.controller_util.PageConfiguration;
 
@@ -11,13 +9,10 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import static java.util.Objects.nonNull;
 
 public class HomeCommand implements Command {
-  /**
+  */
+/**
    * Method for forward on home(main) page
    *
    * @param request
@@ -25,7 +20,8 @@ public class HomeCommand implements Command {
    * @return page
    * @throws ServletException
    * @throws IOException
-   */
+   *//*
+
   @Override
   public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     if(request.getParameter("act")!=null){
@@ -41,7 +37,6 @@ public class HomeCommand implements Command {
         UserService.getInstance().deleteRequest(trackId);
       }
     }
-
     int startPage = 1;
     if (request.getParameter("page") != null) {
       startPage = Integer.parseInt(request.getParameter("page"));
@@ -58,3 +53,4 @@ public class HomeCommand implements Command {
     return PageConfiguration.getInstance().getPageConfiguration(PageConfiguration.MAIN_PAGE);
   }
 }
+*/

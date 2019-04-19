@@ -1,3 +1,4 @@
+/*
 package edu.TimeTracker.Java_external.web.command;
 
 
@@ -16,3 +17,4 @@ public enum Commands {
     Command command;
     public Command getCommand(){return command;}
 }
+*/

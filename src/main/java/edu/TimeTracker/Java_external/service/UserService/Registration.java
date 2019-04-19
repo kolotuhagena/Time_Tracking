@@ -1,25 +1,27 @@
+/*
 package edu.TimeTracker.Java_external.service.UserService;
 
-import edu.TimeTracker.Java_external.persistence.DAO.Factory.Factory;
-import edu.TimeTracker.Java_external.persistence.DAO.UserDao;
-import edu.TimeTracker.Java_external.persistence.entity.User;
+import edu.TimeTracker.Java_external.domain.entity.User;
 import edu.TimeTracker.Java_external.service.Validation;
 import edu.TimeTracker.Java_external.web.controller.controller_util.MessageUtil;
 import edu.TimeTracker.Java_external.web.controller.controller_util.PageConfiguration;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 
 public class Registration extends HttpServlet {
-    private static final Logger LOGGER = Logger.getLogger(Registration.class);
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
     private static Registration INSTANCE;
     private  final UserDao userDao = new Factory().getUserDao();
+*/
 /**
      * Singleton
      *
      * @return INSTANCE
-     */
+     *//*
+
 
     public static Registration getInstance() {
         if (INSTANCE == null) {
@@ -32,6 +34,7 @@ public class Registration extends HttpServlet {
         return INSTANCE;
     }
 
+*/
 /**
  * Method for registration
  *
@@ -40,7 +43,8 @@ public class Registration extends HttpServlet {
  * @param password
  * @param email
  * @return page
- */
+ *//*
+
 
 
 public String registration(HttpServletRequest request, String username, String password, String email) {
@@ -75,7 +79,7 @@ public String registration(HttpServletRequest request, String username, String p
 
         request.setAttribute("createUser", true);
         request.getSession().setAttribute("login", user.getLogin());
-        request.getSession().setAttribute("id", user.getUserId());
+        request.getSession().setAttribute("id", user.getId());
         request.getSession().setAttribute("password", user.getPassword());
         LOGGER.info("User was created: " + username);
         page = PageConfiguration.getInstance().getPageConfiguration(PageConfiguration.MAIN_PAGE);
@@ -99,3 +103,4 @@ public String registration(HttpServletRequest request, String username, String p
         return user;
     }
 }
+*/

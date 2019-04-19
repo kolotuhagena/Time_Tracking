@@ -1,13 +1,12 @@
+/*
 package edu.TimeTracker.Java_external.service.UserService;
 
-import edu.TimeTracker.Java_external.persistence.DAO.Factory.DAOFactory;
-import edu.TimeTracker.Java_external.persistence.DAO.Factory.Factory;
-import edu.TimeTracker.Java_external.persistence.entity.Activity;
-import edu.TimeTracker.Java_external.persistence.entity.Request;
-import edu.TimeTracker.Java_external.persistence.entity.Track;
-import edu.TimeTracker.Java_external.service.Administrate;
+import edu.TimeTracker.Java_external.domain.entity.Activity;
+import edu.TimeTracker.Java_external.domain.entity.Request;
+import edu.TimeTracker.Java_external.domain.entity.Track;
 import edu.TimeTracker.Java_external.service.Validation;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.Time;
 import java.util.List;
@@ -15,7 +14,7 @@ import java.util.List;
 import static java.util.Objects.nonNull;
 
 public class UserService {
-    private static final Logger LOGGER = Logger.getLogger(Administrate.class);
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
     private static UserService INSTANCE;
 
     private DAOFactory factory;
@@ -23,11 +22,13 @@ public class UserService {
     private UserService() {
         factory = new Factory();
     }
-    /**
+    */
+/**
      * Singleton
      *
      * @return INSTANCE
-     */
+     *//*
+
     public static UserService getInstance() {
         if (INSTANCE == null) {
             synchronized (UserService.class) {
@@ -62,7 +63,7 @@ public class UserService {
             track.setElapsedTime(elapsedTime);
             track.setCompleted(true);
             track.setActive(false);
-            factory.getTrackDao().update(track,track.getTrackID());
+            factory.getTrackDao().update(track,track.getId());
         }
     }
 
@@ -82,3 +83,4 @@ public class UserService {
         factory.getRequestDao().delete(Integer.parseInt(trackId));
     }
 }
+*/

@@ -1,8 +1,7 @@
+/*
 package edu.TimeTracker.Java_external.web.filter;
 
-import edu.TimeTracker.Java_external.persistence.DAO.Factory.Factory;
-import edu.TimeTracker.Java_external.persistence.DAO.UserDao;
-import edu.TimeTracker.Java_external.persistence.entity.User;
+import edu.TimeTracker.Java_external.domain.entity.User;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
@@ -52,3 +51,4 @@ public class AuthorizFilter implements Filter {
 
     }
 }
+*/

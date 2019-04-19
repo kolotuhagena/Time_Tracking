@@ -1,9 +1,12 @@
 package edu.TimeTracker.Java_external.service;
 
-import org.apache.log4j.Logger;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Validation {
-    private static final Logger LOGGER = Logger.getLogger(Validation.class);
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
+
     private static Validation INSTANCE;
     private static final String PASSWORD_PATTERN = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\\S+$).{8,}$";
     private static final String TIME_PATTERN = "^(2[0-3]|[01]?[0-9]):([0-5]?[0-9]):([0-5]?[0-9])$";

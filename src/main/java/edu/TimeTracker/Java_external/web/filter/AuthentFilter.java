@@ -1,10 +1,10 @@
+/*
 package edu.TimeTracker.Java_external.web.filter;
 
 
-import edu.TimeTracker.Java_external.persistence.DAO.Factory.Factory;
-import edu.TimeTracker.Java_external.persistence.DAO.UserDao;
-import edu.TimeTracker.Java_external.persistence.entity.User;
-import org.apache.log4j.Logger;
+import edu.TimeTracker.Java_external.domain.entity.User;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
@@ -22,7 +22,7 @@ import static java.util.Objects.nonNull;
                         "/account"})
 public class AuthentFilter implements Filter {
 
-    private final static Logger LOGGER = Logger.getLogger(AuthentFilter.class);
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
@@ -53,7 +53,7 @@ public class AuthentFilter implements Filter {
             //Тут происходит проверка пользователя на подлинность
             if (user.getLogin().equals(login) && user.getPassword() == password.hashCode()) {
                 session.setAttribute("login", user.getLogin());
-                session.setAttribute("id", user.getUserId());
+                session.setAttribute("id", user.getId());
                 session.setAttribute("password", user.getPassword());
                 if(user.getRole().equals(User.Role.ADMIN)){
                     session.setAttribute("IsAdministrator",true);
@@ -74,3 +74,4 @@ public class AuthentFilter implements Filter {
 
     }
 }
+*/

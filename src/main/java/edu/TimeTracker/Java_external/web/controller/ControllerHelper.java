@@ -1,19 +1,24 @@
+/*
 package edu.TimeTracker.Java_external.web.controller;
 
 import edu.TimeTracker.Java_external.web.command.*;
 import edu.TimeTracker.Java_external.web.controller.controller_util.UriMarshaller;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class ControllerHelper extends CommandFactory {
-    private static final Logger LOGGER = Logger.getLogger(ControllerHelper.class);
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
+
     private static ControllerHelper instance;
 
-    /**
+    */
+/**
      * Constructor in which filling the table with commands
-     */
+     *//*
+
     public ControllerHelper(HttpServletRequest request, HttpServletResponse response) {
         super(request, response);
     }
@@ -40,3 +45,4 @@ public class ControllerHelper extends CommandFactory {
         }
     }
 }
+*/
