@@ -21,7 +21,7 @@
 </head>
 <body>
 <!-- HEADER -->
-<jsp:include page="/WEB-INF/view/Components/header.jsp"/>
+<jsp:include page="/templates/header.jsp"/>
 <!-- /HEADER -->
 <h1>Account page</h1>
 </body>

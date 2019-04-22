@@ -3,31 +3,18 @@ package edu.TimeTracker.Java_external.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
-public class Validation {
+@Service
+public class ValidationService {
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
-    private static Validation INSTANCE;
     private static final String PASSWORD_PATTERN = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\\S+$).{8,}$";
     private static final String TIME_PATTERN = "^(2[0-3]|[01]?[0-9]):([0-5]?[0-9]):([0-5]?[0-9])$";
     private static final String EMAIL_PATTERN = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$";
     private static final String USERNAME_PATTERN = "^(?=.*[A-Za-z0-9]$)[A-Za-z][A-Za-z\\d.-]{0,19}$";
 
-    /**
-     * Singleton
-     *
-     * @return INSTANCE
-     */
-    public static Validation getInstance() {
-        if (INSTANCE == null) {
-            synchronized (Validation.class) {
-                if (INSTANCE == null) {
-                    INSTANCE = new Validation();
-                }
-            }
-        }
-        return INSTANCE;
-    }
+
 
     /**
      * Validate password with regular expression

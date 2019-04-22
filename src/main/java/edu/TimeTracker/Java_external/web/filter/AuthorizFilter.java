@@ -43,7 +43,7 @@ public class AuthorizFilter implements Filter {
     private void moveToMenu(User user, HttpServletRequest req, HttpServletResponse res, FilterChain chain) throws ServletException, IOException {
         if (nonNull(user)) {
             chain.doFilter(req, res);
-        } else req.getRequestDispatcher("/WEB-INF/view/index.jsp").forward(req, res);
+        } else req.getRequestDispatcher("/WEB-INF/view/index.html").forward(req, res);
     }
 
     @Override

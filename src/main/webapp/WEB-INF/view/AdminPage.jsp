@@ -22,7 +22,7 @@
 </head>
 <body>
 <!-- HEADER -->
-<jsp:include page="/WEB-INF/view/Components/header.jsp"/>
+<jsp:include page="/templates/header.jsp"/>
 <!-- /HEADER -->
 <form method="post" action="${pageContext.request.contextPath}/administrate?act=true">
 <div class="first-table">

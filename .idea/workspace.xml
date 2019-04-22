@@ -7,58 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3f316f0-42cb-4743-822d-c03dc8f0468c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/JavaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/ActivityRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/RequestRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/TrackRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/Controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/ActivityDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/Factory/DAOFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/Factory/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/GenericDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/RequestDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/TrackDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/UserPermissionDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/entity/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/entity/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/entity/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Track.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/util/ConnectionPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/util/SimpleConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Administrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Administrate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/Controll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/JavaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/RequestRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/RequestRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/Registration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/AdministrateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/AdministrateCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/ForwardToSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/ForwardToSignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/HomeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/HomeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/LogoutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/LogoutCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/MissingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/MissingCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/RegistrationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/RegistrationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/Controll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/ControllerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/ControllerHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/controller_util/UriMarshaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/controller_util/UriMarshaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/AuthentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/AuthentFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/ValidationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/AuthorizFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/AuthorizFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/LangFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/LangFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/DB.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/ActivityDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/ActivityDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/RequestDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/RequestDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/TrackDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/TrackDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/AccountManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/AccountManagement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/AdminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/AdminPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Components/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/components/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/style.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,17 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/MvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/MainApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="374">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,29 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="20" column="4" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Track.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="373">
+              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,73 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Request.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/ActivityRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1535#1536#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#1762#1763#0" expanded="true" />
-                <element signature="e#1797#1798#0" expanded="true" />
-                <element signature="e#1832#1833#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -224,11 +105,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/RequestRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="102">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding>
-                <element signature="e#0#299#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Administrate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="15" selection-end-line="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserDetailsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/ValidationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="57" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/Registration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -286,19 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/UserPermissionDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/GenericDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/entity/Track.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/language_ua.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/Factory/Factory.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/language_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/signIn.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/TimeTrackPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/entity/Activity.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/greetings/greeting.html" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/MainApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/JavaConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/util/ConnectionPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/ActivityDao.java" />
@@ -306,7 +237,6 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/TrackDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/DAO/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/persistence/util/SimpleConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Validation.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/ForwardToSignIn.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/LogoutCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/MissingCommand.java" />
@@ -314,11 +244,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/LangFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/UserRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Administrate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/Registration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/AuthentFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/AuthorizFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/RegistrationCommand.java" />
@@ -326,17 +252,35 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/HomeCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/Commands.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/ControllerHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/MvcConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/TrackRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/ActivityRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/RequestRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Track.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Activity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/RequestRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/style/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Validation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/ValidationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/Controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/Registration.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/components/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/components/header.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/styles/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
@@ -381,38 +325,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TimeTracker" type="58d84e3e:PackageViewProjectNode" />
-              <item name="TimeTracker" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="TimeTracker" type="58d84e3e:PackageViewProjectNode" />
-              <item name="TimeTracker" type="616d4139:PackageViewModuleNode" />
-              <item name="edu.TimeTracker.Java_external" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
-              <item name="Presentation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
@@ -456,6 +375,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Java_external" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_external" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -491,35 +419,6 @@
               <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_external" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_external" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_external" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -527,57 +426,41 @@
               <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="TimeTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="TimeTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_external" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="TimeTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_external" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Time_Tracking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="TimeTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_external" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TimeTracker" type="b2602c69:ProjectViewProjectNode" />
@@ -587,7 +470,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TimeTracker" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TimeTracker" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="TimeTracker" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TimeTracker" type="616d4139:PackageViewModuleNode" />
+              <item name="edu.TimeTracker.Java_external" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -603,7 +501,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Presentation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -623,18 +521,18 @@
       <recent name="edu.TimeTracker.Java_external.web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Time_Tracking\src\main\resources" />
-      <recent name="D:\Time_Tracking\src\main\resources\Language" />
-      <recent name="D:\Time_Tracking\src\main\webapp" />
-      <recent name="D:\Time_Tracking\src\main\webapp\css" />
-      <recent name="D:\Time_Tracking\src\main\webapp\Csss" />
+      <recent name="C:\Users\Hennadii_Kolotukha\IdeaProjects\Time_Tracking\src\main\resources\static\css" />
+      <recent name="C:\Users\Hennadii_Kolotukha\IdeaProjects\Time_Tracking\src\main\resources\static" />
+      <recent name="C:\Users\Hennadii_Kolotukha\IdeaProjects\Time_Tracking\src\main\java\edu\TimeTracker\Java_external\webapp\resources\css" />
+      <recent name="C:\Users\Hennadii_Kolotukha\IdeaProjects\Time_Tracking\src\main\java\edu\TimeTracker\Java_external\webapp\resources" />
+      <recent name="C:\Users\Hennadii_Kolotukha\IdeaProjects\Time_Tracking\src\main\resources\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Time_Tracking\src\main\webapp\styles" />
-      <recent name="D:\Time_Tracking\src\main\webapp\WEB-INF\view" />
-      <recent name="D:\Time_Tracking\src\main\resources" />
-      <recent name="D:\Time_Tracking\src\main\webapp" />
-      <recent name="D:\Time_Tracking\src\main\java\edu\TimeTracker\Java_external\web\filter" />
+      <recent name="C:\Users\Hennadii_Kolotukha\IdeaProjects\Time_Tracking\src\main\resources\templates" />
+      <recent name="C:\Users\Hennadii_Kolotukha\IdeaProjects\Time_Tracking\src\main\resources" />
+      <recent name="C:\Users\Hennadii_Kolotukha\IdeaProjects\Time_Tracking\src\main\resources\templates\styles" />
+      <recent name="C:\Users\Hennadii_Kolotukha\IdeaProjects\Time_Tracking\src\main\java\edu\TimeTracker\Java_external\service" />
+      <recent name="C:\Users\Hennadii_Kolotukha\IdeaProjects\Time_Tracking\Presentation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.TimeTracker.Java_external.web.controller" />
@@ -960,7 +858,8 @@
       <workItem from="1555492702118" duration="8693000" />
       <workItem from="1555579563415" duration="2191000" />
       <workItem from="1555589182348" duration="9000" />
-      <workItem from="1555669029647" duration="3305000" />
+      <workItem from="1555669029647" duration="3450000" />
+      <workItem from="1555924185682" duration="19716000" />
     </task>
     <task id="LOCAL-00001" summary="Was add user DAO functions and test for it">
       <created>1553186236196</created>
@@ -990,7 +889,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553563566595</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Latest commit, main functional complete">
+      <created>1555680125653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555680125653</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1026,13 +932,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203905000" />
+    <option name="totallyTimeSpent" value="223766000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="545" y="0" width="1382" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -1042,13 +957,13 @@
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32822758" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36105034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36105034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41137856" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -1058,10 +973,10 @@
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32936078" />
       <window_info anchor="bottom" id="Spring" order="16" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.5030257" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.1096823" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="JSF" order="6" />
       <window_info anchor="right" id="CDI" order="7" weight="0.32980332" />
@@ -1082,336 +997,18 @@
     <MESSAGE value="Latest commit, main functional complete" />
     <option name="LAST_COMMIT_MESSAGE" value="Latest commit, main functional complete" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/RequestDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-434" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Presentation/SimpleApplication/src/main/java/com/spring/simpleApp/Config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/edu/TimeTracker/Java_external/persistence/DAO/TrackDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/controller_util/MessageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding>
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.4.RELEASE/spring-boot-dependencies-2.1.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="524" selection-start-line="524" selection-end-line="524" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.external.java:TimeTracker:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.external.java:TimeTracker:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.external.java:TimeTracker:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8/com.fasterxml.jackson.core:jackson-core:jar:2.9.8</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.8</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.8</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.8</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.17</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.17</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.17</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final/com.fasterxml:classmate:jar:1.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework:spring-web:jar:5.1.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework:spring-webmvc:jar:5.1.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.1.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.1.4.RELEASE/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.1.4.RELEASE/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.1.4.RELEASE/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE/org.attoparser:attoparser:jar:2.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.1.4.RELEASE/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE/org.unbescape:unbescape:jar:1.1.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.1.4.RELEASE/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.1.4.RELEASE/org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.1.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot:jar:2.1.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.4.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-beans:jar:5.1.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE/org.springframework:spring-jcl:jar:5.1.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-expression:jar:5.1.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-test:jar:5.1.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.4.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.4.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.4.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.4.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.4.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.26</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
-            <node x="" y="">org.springframework:spring-context-support:jar:5.1.6.RELEASE</node>
-            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="" y="">jstl:jstl:jar:1.2</node>
-            <node x="" y="">org.mockito:mockito-all:jar:2.0.2-beta</node>
-            <node x="" y="">junit:junit:jar:4.12</node>
-            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">javax:javaee-web-api:jar:6.0</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:8.0.15</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.4176672384219554" x="480.0" y="573.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/Command.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/util/ConnectionPool.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/DAO/ActivityDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/DAO/RequestDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/DAO/TrackDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/DAO/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/util/SimpleConnection.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/AccountManageCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/ForwardToSignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/LogoutCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/MissingCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/controller_util/UriMarshaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/LangFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/greeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Administrate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="15" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="15" column="34" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="37" column="13" lean-forward="true" selection-end-line="86" />
-          <folding>
-            <element signature="e#0#2726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Validation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/Controll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/AuthentFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="26" column="13" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/AuthorizFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/RegistrationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="13" column="41" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/AdministrateCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="9" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#2175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/HomeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="30" column="54" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/command/Commands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/ControllerHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#1545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/JavaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/ActivityRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1425,57 +1022,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/Presentation/SimpleApplication/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1113" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/RequestRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Track.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1485,61 +1040,384 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Request.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1797#1798#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1640#1641#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Activity.java">
+    <entry file="file://$PROJECT_DIR$/Presentation/SimpleApplication/src/main/java/com/spring/simpleApp/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Presentation/SimpleApplication/src/main/java/com/spring/simpleApp/Repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Presentation/SimpleApplication/src/main/java/com/spring/simpleApp/Domain/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Presentation/SimpleApplication/src/main/java/com/spring/simpleApp/Service/UserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Presentation/SimpleApplication/src/main/java/com/spring/simpleApp/Controller/AppendController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Presentation/SimpleApplication/src/main/java/com/spring/simpleApp/Controller/Controll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="374">
+          <caret line="31" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="245" column="26" selection-start-line="245" selection-start-column="26" selection-end-line="245" selection-end-column="26" />
           <folding>
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#8380#8381#0" expanded="true" />
+            <element signature="e#8414#8415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2966">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/greeting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/JavaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/LangFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/filter/AuthorizFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/ControllerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#1545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/web/controller/controller_util/MessageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/Controll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/security/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Presentation/SimpleApplication/src/main/resources/templates/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Presentation/SimpleApplication/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/components/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="89" selection-start-column="89" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="50" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1818#1819#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
+            <element signature="e#2529#2530#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
+            <element signature="e#2787#2788#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
+            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2914#2915#0" expanded="true" />
+            <element signature="e#2959#2960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/domain/entity/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/Controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/ActivityRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/repository/RequestRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserService/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/Administrate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="15" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/UserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/service/ValidationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/MvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-end-line="14" />
+        <state relative-caret-position="374">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/TimeTracker/Java_external/config/WebSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" column="4" selection-end-line="44" />
+        <state relative-caret-position="119">
+          <caret line="7" column="57" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>

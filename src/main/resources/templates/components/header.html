@@ -1,0 +1,27 @@
+<html xmlns:th="http://www.thymeleaf.org" xmlns:c="http://www.w3.org/1999/XSL/Transform">
+<header class="main-header">
+    <div class="wrapper main-header__wrapper">
+        <a href="/" class="main-header__logo" ><div th:text="${logo}"></div></a>
+        <ul class="main-header__menu">
+            <div th:if="${user!=null}">
+                <li class="main-header__list"><a href="/home"
+                                                 class="main-header__link" th:text="${main}"></a></li>
+                <li class="main-header__list"><a href="/account"
+                                                 class="main-header__link" th:text="${account}"></a></li>
+            </div>
+
+                <li class="main-header__list admin" th:if="${IsAdministrator == true}"><a
+                        href="/administrate" th:text="${admin}"></a></li>
+        </ul>
+    </div>
+    <div class="lang">
+            <span class="lang__item"><a href="?lang=UA" class="lang__link">
+                    <p>UA</p>
+                </a></span>
+        <span class="lang__item"><a href="?lang=EN" class="lang__link">
+                    <p>ENG</p>
+                </a></span>
+            <a th:if="${login != null}?${logout}" href="/logout" class="lang__link"><i class=""></i> </a>
+    </div>
+</header>
+</html>
