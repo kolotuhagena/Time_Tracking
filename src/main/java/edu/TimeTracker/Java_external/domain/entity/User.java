@@ -12,15 +12,19 @@ import java.util.*;
 public class User implements UserDetails {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue
+    @Column(nullable = false)
     private Long id;
 
+    @Basic(optional = false)
     @Column(nullable = false)
     private String login;
 
+    @Basic(optional = false)
     @Column(nullable = false)
     private String password;
 
+    @Basic(optional = false)
     @Column(nullable = false)
     private String email;
 

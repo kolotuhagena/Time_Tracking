@@ -66,7 +66,7 @@ public class AuthentFilter implements Filter {
     private void moveToMenu(User user, HttpServletRequest req, HttpServletResponse res, FilterChain chain) throws ServletException, IOException {
         if (nonNull(user)) {
             chain.doFilter(req, res);
-        } else req.getRequestDispatcher("/WEB-INF/view/signIn.jsp").forward(req, res);
+        } else req.getRequestDispatcher("/WEB-INF/view/signIn.html").forward(req, res);
     }
 
     @Override

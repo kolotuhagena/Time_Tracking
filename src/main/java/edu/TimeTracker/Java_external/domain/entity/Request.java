@@ -6,10 +6,10 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "request")
 public class Request  {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue
+    @Column(nullable = false)
     private Long id;
 
     @Column(nullable = false)
@@ -17,11 +17,11 @@ public class Request  {
     private Type type;
 
     @ManyToOne
-    @JoinColumn(name = "activity_id")
+    @JoinColumn(name = "activityId")
     private Activity activity;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "userId")
     private User user;
 
     public Long getId() {

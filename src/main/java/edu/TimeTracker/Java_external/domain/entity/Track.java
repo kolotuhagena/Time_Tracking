@@ -7,11 +7,11 @@ import java.sql.Time;
 import java.util.Objects;
 
 @Entity
-@Table(name = "track")
 public class Track {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue
+    @Column(nullable = false)
     private Long id;
 
 
@@ -25,12 +25,12 @@ public class Track {
     private Time elapsedTime;
 
     @ManyToOne
-    @JoinColumn(name="activity_id")
+    @JoinColumn(name="activityId")
     private Activity activity;
 
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "userId")
     private User user;
 
     public Long getId() {

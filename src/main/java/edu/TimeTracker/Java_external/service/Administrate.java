@@ -1,85 +1,63 @@
-/*
 package edu.TimeTracker.Java_external.service;
 
 import edu.TimeTracker.Java_external.domain.entity.Request;
 import edu.TimeTracker.Java_external.domain.entity.Track;
+import edu.TimeTracker.Java_external.repository.RequestRepo;
+import edu.TimeTracker.Java_external.repository.TrackRepo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.sql.Time;
 import java.util.List;
+import java.util.Optional;
 
 public class Administrate {
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
-    private static Administrate INSTANCE;
+    @Autowired
+    private RequestRepo requestRepo;
 
-    private DAOFactory factory;
-
-    private Administrate() {
-        factory = new Factory();
-    }
-
-    */
-/**
-     * Singleton
-     *
-     * @return INSTANCE
-     *//*
-
-    public static Administrate getInstance() {
-        if (INSTANCE == null) {
-            synchronized (Administrate.class) {
-                if (INSTANCE == null) {
-                    INSTANCE = new Administrate();
-                }
-            }
-        }
-        return INSTANCE;
-    }
-
+    @Autowired
+    private TrackRepo trackRepo;
 
     public void response(int id, Object action) {
-        Request request = factory.getRequestDao().getById(id);
+        Optional<Request> request = requestRepo.findById(id);
         String act = (String) action;
-        Request.Type type = request.getType();
-        if (act.toUpperCase().equals("TRUE")) {
-            if (type.equals(Request.Type.ADD)) {
-                Track track = new Track();
-                track.setActivity(request.getActivity());
-                track.setUser(request.getUser());
-                track.setElapsedTime(new Time(0));
-                track.setActive(true);
-                track.setCompleted(false);
+        Request.Type type;
+        if (request.isPresent()) {
+            type = request.get().getType();
+            if (act.toUpperCase().equals("TRUE")) {
+                if (type.equals(Request.Type.ADD)) {
+                    Track track = new Track();
+                    track.setActivity(request.get().getActivity());
+                    track.setUser(request.get().getUser());
+                    track.setElapsedTime(new Time(0));
+                    track.setActive(true);
+                    track.setCompleted(false);
 
-                factory.getTrackDao().create(track);
-                factory.getRequestDao().delete(request.getId());
+                    trackRepo.save(track);
+                    requestRepo.delete(request.get());
 
 
-            } else if(type.equals(Request.Type.DELETE)){
-                try {
-                    factory.getTrackDao().delete(id);
-                }catch (Exception e) {
-                    LOGGER.error("DB haven't such object");
+                } else if (type.equals(Request.Type.DELETE)) {
+                    try {
+                        trackRepo.deleteById(id);
+                    } catch (Exception e) {
+                        LOGGER.error("DB haven't such object");
+                    }
+
                 }
-
             }
         }
-
     }
 
-    */
-/**
-     * Method to get all request
-     *//*
-
-    public List<Request> getRequest(int offset, int records) {
-        return factory.getRequestDao().getAllWithPagination(offset, records);
+    public List<Request> getRequest() {
+        return requestRepo.findAll();
     }
 
-    public int getRequestRecords() {
-        return factory.getRequestDao().getCountObjects();
+    public long getRequestRecords() {
+        return requestRepo.count();
     }
 }
 
-*/

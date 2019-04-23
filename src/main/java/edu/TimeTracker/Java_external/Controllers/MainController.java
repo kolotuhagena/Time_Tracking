@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Collections;
 import java.util.Map;
+import java.util.Optional;
 
 @Controller
 public class MainController {
@@ -19,11 +20,11 @@ public class MainController {
     @Autowired
     private UserService userService;
 
-    @PostMapping("/registration")
+    @PostMapping("/sign_up")
     public @ResponseBody
     String addUser(User user, Map<String, Object> model){
-        User userFromDb = userService.getUserFromDB(user.getUsername());
-        if(userFromDb != null){
+        Optional<User> userFromDb = userService.getUserFromDB(user.getUsername());
+        if(userFromDb.isPresent()){
             model.put("message", "User exist");
             return "redirect:/reg";
         }

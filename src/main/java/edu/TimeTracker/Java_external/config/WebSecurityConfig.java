@@ -16,11 +16,28 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserDetailsService userDetailsService;
 
+    private static final String[] LIST_RESOURCES = {
+            "/resources/**",
+            "/favicon.ico",
+            "/**/*.html",
+            "/**/*.css",
+            "/**/*.js",
+            "/**/*.png",
+            "/**/*.gif",
+            "/**/*.svg",
+            "/**/*.jpg",
+            "/favicon.ico"
+    };
+
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
+                .csrf().disable()
+
                 .authorizeRequests()
-                    .antMatchers("/", "/reg", "/static/**").permitAll()
+                    .antMatchers("/", "/sign_up").permitAll()
+                    .antMatchers(LIST_RESOURCES).permitAll()
                     .anyRequest().authenticated()
                     .and()
                 .formLogin()
@@ -40,6 +57,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     public void configure(WebSecurity web) throws Exception {
         web
                 .ignoring()
-                .antMatchers("/resources/**");
+                .antMatchers("/resources/**", "/css/**");
     }
 }

@@ -6,20 +6,21 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity
-@Table(name = "activity")
+@Table
 public class Activity   {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue
+    @Column(nullable = false)
     private Long id;
 
     @Column(nullable = false)
     private String name;
 
-    @OneToMany(mappedBy = "activity")
+    @OneToMany(mappedBy = "activity",fetch = FetchType.LAZY)
     List<Track> trackList;
 
-    @OneToMany(mappedBy = "activity")
+    @OneToMany(mappedBy = "activity",fetch = FetchType.LAZY)
     List<Request> requestsList;
 
     public Long getId() {
