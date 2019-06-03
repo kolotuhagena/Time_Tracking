@@ -1,6 +1,6 @@
-package edu.TimeTracker.Java_external.domain.DAO;
+package edu.timeTracker.java_external.domain.DAO;
 
-import edu.TimeTracker.Java_external.domain.entity.Activity;
+import edu.timeTracker.java_external.domain.entity.Activity;
 import org.junit.*;
 
 import java.util.List;

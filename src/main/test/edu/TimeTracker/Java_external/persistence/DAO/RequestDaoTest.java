@@ -1,8 +1,8 @@
-package edu.TimeTracker.Java_external.domain.DAO;
+package edu.timeTracker.java_external.domain.DAO;
 
-import edu.TimeTracker.Java_external.domain.entity.Activity;
-import edu.TimeTracker.Java_external.domain.entity.Request;
-import edu.TimeTracker.Java_external.domain.entity.User;
+import edu.timeTracker.java_external.domain.entity.Activity;
+import edu.timeTracker.java_external.domain.entity.Request;
+import edu.timeTracker.java_external.domain.entity.User;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
