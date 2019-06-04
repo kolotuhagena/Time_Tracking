@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TimeTracker" />
         <module name="FP_time_tracking" />
+        <module name="TimeTracker" />
+        <module name="SimpleApplication" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SimpleApplication" options="-parameters" />
       <module name="TimeTracker" options="-parameters" />
     </option>
   </component>

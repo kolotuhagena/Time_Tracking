@@ -1,9 +1,0 @@
-com\spring\simpleApp\Domain\Role.class
-com\spring\simpleApp\Config\MvcConfig.class
-com\spring\simpleApp\Domain\User.class
-com\spring\simpleApp\MainApp.class
-com\spring\simpleApp\Controller\Controll.class
-com\spring\simpleApp\Service\UserDetailsService.class
-com\spring\simpleApp\Controller\AppendController.class
-com\spring\simpleApp\Repository\UserRepository.class
-com\spring\simpleApp\Config\WebSecurityConfig.class
