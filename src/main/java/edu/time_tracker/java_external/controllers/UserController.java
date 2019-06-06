@@ -36,7 +36,7 @@ public class UserController {
 
     }
 
-    @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @PutMapping(value = "", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<User> saveUser(@RequestBody @Valid User user) {
         HttpHeaders headers = new HttpHeaders();
 
@@ -61,7 +61,7 @@ public class UserController {
         return new ResponseEntity<>(user, headers, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "{id}", method = RequestMethod.DELETE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @DeleteMapping(value = "{id}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<User> deleteUser(@PathVariable("id") Long id) {
         Optional<User> user = userService.getById(id);
 
@@ -74,7 +74,7 @@ public class UserController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    @RequestMapping(value = "", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<List<User>> getAllUsers() {
         List<User> users = userService.getAll();
 
